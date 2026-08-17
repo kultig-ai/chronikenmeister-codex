@@ -9,7 +9,7 @@
       "level": 2,
       "levelupAusstehend": false,
       "aussehen": "1,90 Meter groß, breit gebaut, gut trainiert. Besteht darauf, dass alle ihn süß finden - daher der Name Kieselchen (Verniedlichung von Kiesel)",
-      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Führt ein großes Vermögen (~50.000 Goldstücke plus Lohn der Ältestenrätin) mit sich, das vor einer neuen Reise sicher gelagert werden muss",
+      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Das große Vermögen (ca. 67.000 Goldstücke) liegt sicher im Erdversteck im Fundament der Festung, nicht mehr bei sich getragen; nur ein kleineres Reisebudget mitgeführt",
       "faehigkeiten": [
         "Erdbändigung (Setting angelehnt an Avatar - Herr der Elemente)",
         "Level 2 Vorteil: niedrigere Zielzahl für kraftvolle Erdbändigung"
@@ -41,7 +41,7 @@
       "level": 2,
       "levelupAusstehend": false,
       "aussehen": "1,80 Meter groß, fast weißes/sehr helles Haar, blaue Augen. Neugierig veranlagt",
-      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Führt ein großes Vermögen (~50.000 Goldstücke plus Lohn der Ältestenrätin) mit sich, das vor einer neuen Reise sicher gelagert werden muss",
+      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Das große Vermögen (ca. 67.000 Goldstücke) liegt sicher im Erdversteck im Fundament der Festung, nicht mehr bei sich getragen; nur ein kleineres Reisebudget mitgeführt",
       "faehigkeiten": [
         "Kämpft mit zwei Fächern, damit auch Windattacken wie Wirbelsturm",
         "Spezialattacke: bringt warme Luft zum Stinken, setzt Gegner dadurch außer Gefecht",
@@ -228,7 +228,7 @@
         "crush"
       ],
       "letzterStand": "Kieselchen wurde nach einer Theatervorstellung von einer vermummten Gruppe (Symbol: gekreuzte Feder) entführt, Treffpunkt am alten Brunnen; Stormy beobachtet aus der Nähe. Ausgang der Entführung offen.",
-      "ausstehend": "Kieselchen und Stormy tragen ein Vermögen von grob 50.000 Goldstücken plus Lohn der Ältestenrätin bei sich — muss vor der nächsten Reise sicher gelagert werden. Kieselchens Entführung ist ungelöst."
+      "ausstehend": "Das Vermögen (ca. 67.000 Goldstücke) liegt sicher im Erdversteck im Fundament der Festung, nicht mehr unterwegs bei Kieselchen und Stormy. Kieselchens Entführung ist ungelöst."
     },
     {
       "id": "wurzeln-des-frosts",
