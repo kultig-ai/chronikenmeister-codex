@@ -26,7 +26,8 @@ jobs:
       - name: Download content.json from Google Drive
         env:
           GDRIVE_SA_KEY: ${{ secrets.GDRIVE_SA_KEY }}
-          DRIVE_FILE_ID: '1EUdHxMT-97AtCUxEBTMVjM7zr7wA9whD'
+          DRIVE_FOLDER_ID: '1DJWkrBc1WBfzwhc6XsVYQLSdqGu8JSa5'
+          DRIVE_FILE_NAME: 'content.json'
         run: python .github/scripts/sync_content.py
 
       - name: Commit and push if changed
