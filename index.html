@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chronikenmeister-Codex</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Fraunces:ital,wght@0,400;0,600;1,400&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #2c2820;
+    --ink-2: #2a251e;
+    --parch-1: #ece2ca;
+    --parch-2: #d9cba6;
+    --gold: #b6863a;
+    --gold-light: #e0aa54;
+    --blood: #7c3b32;
+    --forest: #41573f;
+    --text-on-parch: #2a2418;
+  }
+
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at top, #2c2820 0%, #1c1a16 100%);
+    font-family: 'Fraunces', serif;
+    color: var(--parch-1);
+    padding: 24px 16px 64px;
+  }
+
+  .divider {
+    height: 2px;
+    max-width: 480px;
+    margin: 12px auto;
+    background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  }
+
+  header {
+    text-align: center;
+    margin-bottom: 28px;
+  }
+
+  h1.title {
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color: var(--gold-light);
+    letter-spacing: 0.06em;
+    font-size: clamp(1.6rem, 4vw, 2.4rem);
+    margin: 8px 0 4px;
+    text-shadow: 0 0 18px rgba(224, 170, 84, 0.35);
+  }
+
+  .subtitle {
+    font-style: italic;
+    color: #cfc4a6;
+    margin: 0;
+  }
+
+  .tabs {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 24px 0;
+  }
+
+  .tab-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.85rem;
+    padding: 10px 22px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: 1px solid var(--gold);
+    background: var(--ink-2);
+    color: var(--gold-light);
+    letter-spacing: 0.04em;
+    transition: all 0.15s ease;
+  }
+
+  .tab-btn.active {
+    background: var(--gold-light);
+    color: var(--ink);
+    font-weight: 600;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .card {
+    background: linear-gradient(160deg, var(--parch-1), var(--parch-2));
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+    color: var(--text-on-parch);
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.15s ease;
+  }
+
+  .card:hover { transform: translateY(-3px); }
+
+  .card .seal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 35% 30%, var(--gold-light), var(--blood));
+    border: 2px solid var(--ink-2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cinzel', serif;
+    font-weight: 700;
+    color: #fff;
+    font-size: 1rem;
+    z-index: 2;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.5);
+  }
+
+  .card .portrait {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    border-bottom: 3px solid var(--gold);
+  }
+
+  .card .portrait-placeholder {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    color: #6b5f45;
+    padding: 10px;
+    background: repeating-linear-gradient(45deg, #cbbf9d, #cbbf9d 8px, #bcae87 8px, #bcae87 16px);
+    border-bottom: 3px solid var(--gold);
+  }
+
+  .card .card-body {
+    padding: 14px 16px 18px;
+  }
+
+  .card h3 {
+    font-family: 'Cinzel', serif;
+    margin: 0 0 4px;
+    font-size: 1.1rem;
+  }
+
+  .card .meta {
+    font-style: italic;
+    color: #55492f;
+    font-size: 0.85rem;
+    margin: 0 0 8px;
+  }
+
+  .card .campaign-tags {
+    font-size: 0.75rem;
+    color: var(--forest);
+  }
+
+  .badge-pending {
+    display: inline-block;
+    margin-top: 8px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.68rem;
+    border: 1px solid var(--forest);
+    color: var(--forest);
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+
+  .status-tag {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    border: 1px solid var(--gold);
+    color: var(--ink-2);
+    background: var(--gold-light);
+    padding: 3px 10px;
+    border-radius: 5px;
+    display: inline-block;
+  }
+
+  /* Sheet / Detail view */
+  .sheet {
+    max-width: 900px;
+    margin: 0 auto;
+    background: linear-gradient(160deg, var(--parch-1), var(--parch-2));
+    border-radius: 14px;
+    color: var(--text-on-parch);
+    padding: 24px 26px 32px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.5);
+  }
+
+  .back-btn {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.8rem;
+    background: none;
+    border: 1px solid var(--gold-light);
+    color: var(--gold-light);
+    padding: 8px 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    display: inline-block;
+  }
+
+  .sheet-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 12px;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+  }
+
+  .sheet-header h2 {
+    font-family: 'Cinzel', serif;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    margin: 0 0 4px;
+  }
+
+  .sheet-header .meta {
+    font-style: italic;
+    color: #55492f;
+    margin: 0;
+  }
+
+  .level-badge {
+    background: var(--ink);
+    color: var(--gold-light);
+    border-radius: 8px;
+    padding: 10px 18px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    min-width: 90px;
+  }
+
+  .level-badge .num { font-size: 1.8rem; font-weight: 700; display: block; }
+  .level-badge .pending { font-family: 'JetBrains Mono', monospace; font-size: 0.65rem; color: var(--gold-light); margin-top: 4px; display: block; }
+
+  .field-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px 24px;
+  }
+
+  @media (max-width: 640px) {
+    .field-grid { grid-template-columns: 1fr; }
+  }
+
+  .field { margin-bottom: 4px; }
+  .field.full { grid-column: 1 / -1; }
+
+  .field h4 {
+    font-family: 'JetBrains Mono', monospace;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 0.72rem;
+    color: var(--forest);
+    margin: 0 0 6px;
+  }
+
+  .field.ruf h4 { color: var(--blood); }
+
+  .field ul {
+    margin: 0;
+    padding-left: 18px;
+  }
+
+  .field p { margin: 0; }
+
+  .portrait-block {
+    display: flex;
+    gap: 18px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+
+  .portrait-block .portrait,
+  .portrait-block .portrait-placeholder {
+    width: 140px;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+    border: 3px solid var(--gold);
+    flex-shrink: 0;
+  }
+
+  .chips {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .chip {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 0.75rem;
+    background: var(--ink-2);
+    color: var(--gold-light);
+    border: 1px solid var(--gold);
+    padding: 6px 12px;
+    border-radius: 16px;
+    cursor: pointer;
+  }
+
+  .love { color: var(--blood); }
+
+  .hidden { display: none !important; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="divider"></div>
+  <h1 class="title">Chronikenmeister-Codex</h1>
+  <p class="subtitle">Übersicht über Charaktere &amp; Kampagnen</p>
+  <div class="divider"></div>
+</header>
+
+<div id="tabs" class="tabs">
+  <button class="tab-btn active" data-tab="characters">Charaktere</button>
+  <button class="tab-btn" data-tab="campaigns">Kampagnen</button>
+</div>
+
+<div id="grid-characters" class="grid"></div>
+<div id="grid-campaigns" class="grid hidden"></div>
+<div id="sheet-container"></div>
+
+<script>
+let DATA = { characters: [], campaigns: [] };
+
+async function loadData() {
+  const res = await fetch('content.json', { cache: 'no-store' });
+  DATA = await res.json();
+  renderCharacterGrid();
+  renderCampaignGrid();
+}
+
+function portraitTag(id, className) {
+  const img = document.createElement('img');
+  img.className = className;
+  img.alt = id;
+  const exts = ['png', 'jpg', 'jpeg', 'webp'];
+  let i = 0;
+  function tryNext() {
+    if (i >= exts.length) {
+      const ph = document.createElement('div');
+      ph.className = className.replace('portrait', 'portrait-placeholder');
+      ph.textContent = 'Kein Portrait vorhanden';
+      img.replaceWith(ph);
+      return;
+    }
+    img.src = `portraits/${id}.${exts[i]}`;
+    i++;
+  }
+  img.onerror = tryNext;
+  tryNext();
+  return img;
+}
+
+function renderCharacterGrid() {
+  const grid = document.getElementById('grid-characters');
+  grid.innerHTML = '';
+  DATA.characters.forEach(c => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.onclick = () => openCharacterSheet(c.id);
+
+    const seal = document.createElement('div');
+    seal.className = 'seal';
+    seal.textContent = c.level;
+    card.appendChild(seal);
+
+    card.appendChild(portraitTag(c.bild || c.id, 'portrait'));
+
+    const body = document.createElement('div');
+    body.className = 'card-body';
+    const campaignNames = c.kampagnen.map(cid => (DATA.campaigns.find(k => k.id === cid) || {}).name || cid).join(', ');
+    body.innerHTML = `
+      <h3>${c.name}</h3>
+      <p class="meta">${[c.volk, c.klasse].filter(Boolean).join(' · ')}</p>
+      <p class="campaign-tags">${campaignNames}</p>
+      ${c.levelupAusstehend ? '<span class="badge-pending">Levelup ausstehend</span>' : ''}
+    `;
+    card.appendChild(body);
+    grid.appendChild(card);
+  });
+}
+
+function renderCampaignGrid() {
+  const grid = document.getElementById('grid-campaigns');
+  grid.innerHTML = '';
+  DATA.campaigns.forEach(k => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.onclick = () => openCampaignSheet(k.id);
+
+    const seal = document.createElement('div');
+    seal.className = 'seal';
+    seal.style.fontSize = '0.6rem';
+    seal.textContent = k.status === 'laufend' ? '●' : '✓';
+    card.appendChild(seal);
+
+    const body = document.createElement('div');
+    body.className = 'card-body';
+    const charNames = k.charaktere.map(cid => (DATA.characters.find(c => c.id === cid) || {}).name || cid).join(', ');
+    body.innerHTML = `
+      <h3>${k.name}</h3>
+      <p class="meta">${charNames}</p>
+      <span class="status-tag">${k.status}</span>
+    `;
+    card.appendChild(body);
+    grid.appendChild(card);
+  });
+}
+
+function listField(title, items, extraClass) {
+  if (!items || items.length === 0) items = ['—'];
+  return `<div class="field ${extraClass || ''}"><h4>${title}</h4><ul>${items.map(i => `<li>${i}</li>`).join('')}</ul></div>`;
+}
+
+function textField(title, text, extraClass) {
+  return `<div class="field ${extraClass || ''}"><h4>${title}</h4><p>${text && text.length ? text : '—'}</p></div>`;
+}
+
+function openCharacterSheet(id) {
+  const c = DATA.characters.find(x => x.id === id);
+  if (!c) return;
+  showTabsAndGrids(false);
+  const container = document.getElementById('sheet-container');
+  container.innerHTML = '';
+
+  const back = document.createElement('button');
+  back.className = 'back-btn';
+  back.textContent = '← Zurück';
+  back.onclick = closeSheet;
+  container.appendChild(back);
+
+  const sheet = document.createElement('div');
+  sheet.className = 'sheet';
+
+  const beziehungenParts = [];
+  if (c.loveInterest) beziehungenParts.push(`<span class="love">♥ ${c.loveInterest}</span>`);
+  if (c.familienstand) beziehungenParts.push(c.familienstand);
+  if (c.beziehungen) beziehungenParts.push(c.beziehungen);
+
+  sheet.innerHTML = `
+    <div class="sheet-header">
+      <div>
+        <h2>${c.name}</h2>
+        <p class="meta">${[c.volk, c.klasse, c.spieler].filter(Boolean).join(' · ')}</p>
+      </div>
+      <div class="level-badge">
+        <span class="num">${c.level}</span>
+        <span>Level</span>
+        ${c.levelupAusstehend ? '<span class="pending">Levelup ausstehend</span>' : ''}
+      </div>
+    </div>
+    <div class="field-grid">
+      <div class="field full portrait-block" id="portrait-slot"></div>
+      <div class="field"><h4>Aktueller Zustand</h4><p>${c.zustand && c.zustand.length ? c.zustand : '—'}</p></div>
+      ${listField('Fähigkeiten', c.faehigkeiten)}
+      ${listField('Inventar', c.inventar)}
+      ${textField('Ruf', c.ruf, 'ruf')}
+      ${listField('Besondere Aktionen', c.besondereAktionen)}
+      <div class="field"><h4>Beziehungen</h4><p>${beziehungenParts.length ? beziehungenParts.join('<br>') : '—'}</p></div>
+      <div class="field full"><h4>Hintergrundgeschichte</h4><p>${c.hintergrund && c.hintergrund.length ? c.hintergrund : '—'}</p></div>
+      <div class="field full">
+        <h4>Kampagnen</h4>
+        <div class="chips">
+          ${c.kampagnen.map(cid => {
+            const k = DATA.campaigns.find(x => x.id === cid);
+            return `<span class="chip" data-campaign="${cid}">${k ? k.name : cid}</span>`;
+          }).join('')}
+        </div>
+      </div>
+    </div>
+  `;
+  container.appendChild(sheet);
+  sheet.querySelector('#portrait-slot').appendChild(portraitTag(c.bild || c.id, 'portrait'));
+  sheet.querySelectorAll('.chip[data-campaign]').forEach(chip => {
+    chip.onclick = () => openCampaignSheet(chip.dataset.campaign);
+  });
+}
+
+function openCampaignSheet(id) {
+  const k = DATA.campaigns.find(x => x.id === id);
+  if (!k) return;
+  showTabsAndGrids(false);
+  const container = document.getElementById('sheet-container');
+  container.innerHTML = '';
+
+  const back = document.createElement('button');
+  back.className = 'back-btn';
+  back.textContent = '← Zurück';
+  back.onclick = closeSheet;
+  container.appendChild(back);
+
+  const sheet = document.createElement('div');
+  sheet.className = 'sheet';
+  sheet.innerHTML = `
+    <div class="sheet-header">
+      <div>
+        <h2>${k.name}</h2>
+        <p class="meta">${k.beschreibung || ''}</p>
+      </div>
+      <span class="status-tag">${k.status}</span>
+    </div>
+    <div class="field-grid">
+      <div class="field full">
+        <h4>Gruppe</h4>
+        <div class="chips">
+          ${k.charaktere.map(cid => {
+            const c = DATA.characters.find(x => x.id === cid);
+            return `<span class="chip" data-character="${cid}">${c ? c.name : cid}</span>`;
+          }).join('')}
+        </div>
+      </div>
+      <div class="field full"><h4>Letzter Stand</h4><p>${k.letzterStand && k.letzterStand.length ? k.letzterStand : '—'}</p></div>
+      ${k.ausstehend && k.ausstehend.length ? `<div class="field full ruf"><h4>Ausstehend</h4><p>${k.ausstehend}</p></div>` : ''}
+    </div>
+  `;
+  container.appendChild(sheet);
+  sheet.querySelectorAll('.chip[data-character]').forEach(chip => {
+    chip.onclick = () => openCharacterSheet(chip.dataset.character);
+  });
+}
+
+function closeSheet() {
+  document.getElementById('sheet-container').innerHTML = '';
+  showTabsAndGrids(true);
+}
+
+function showTabsAndGrids(show) {
+  document.getElementById('tabs').classList.toggle('hidden', !show);
+  const activeTab = document.querySelector('.tab-btn.active').dataset.tab;
+  document.getElementById('grid-characters').classList.toggle('hidden', !(show && activeTab === 'characters'));
+  document.getElementById('grid-campaigns').classList.toggle('hidden', !(show && activeTab === 'campaigns'));
+}
+
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.onclick = () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById('grid-characters').classList.toggle('hidden', btn.dataset.tab !== 'characters');
+    document.getElementById('grid-campaigns').classList.toggle('hidden', btn.dataset.tab !== 'campaigns');
+  };
+});
+
+loadData();
+</script>
+
+</body>
+</html>
