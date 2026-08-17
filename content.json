@@ -8,14 +8,11 @@
       "klasse": "Erdbändiger",
       "level": 2,
       "levelupAusstehend": false,
-      "aussehen": "1,90 Meter groß, breit gebaut, gut trainiert. Besteht darauf, dass alle ihn süß finden - daher der Name Kieselchen (Verniedlichung von Kiesel).",
-      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Führt ein großes Vermögen (~50.000 Goldstücke plus Lohn der Ältestenrätin) mit sich, das vor einer neuen Reise sicher gelagert werden muss.",
-      "faehigkeiten": [
-        "Erdbändigung (Setting angelehnt an Avatar - Herr der Elemente)",
-        "Level 2 Vorteil: niedrigere Zielzahl für kraftvolle Erdbändigung"
-      ],
+      "aussehen": "1,90 Meter groß, breit gebaut, gut trainiert. Besteht darauf, dass alle ihn süß finden - daher der Name Kieselchen (Verniedlichung von Kiesel)",
+      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Führt ein großes Vermögen (~50.000 Goldstücke plus Lohn der Ältestenrätin) mit sich, das vor einer neuen Reise sicher gelagert werden muss",
+      "faehigkeiten": ["Erdbändigung (Setting angelehnt an Avatar - Herr der Elemente)", "Level 2 Vorteil: niedrigere Zielzahl für kraftvolle Erdbändigung"],
       "inventar": [],
-      "ruf": "Öffentlich in Aschgrat als Held gefeiert (geschönte Geschichte) — tatsächlich zweckorientiert und bereit, fragwürdige Mittel einzusetzen; könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden.",
+      "ruf": "Öffentlich in Aschgrat als Held gefeiert (geschönte Geschichte) — tatsächlich zweckorientiert und bereit, fragwürdige Mittel einzusetzen; könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden",
       "besondereAktionen": [
         "Zerstörte gemeinsam mit Stormy eine erwachte, leidende Lavagestalt mit Erdbändigung",
         "Beteiligte sich am nächtlichen Einbruch in die Schatzkammer von Aschgrat, schaltete dabei Wachen aus",
@@ -38,15 +35,11 @@
       "klasse": "Luftbändiger",
       "level": 2,
       "levelupAusstehend": false,
-      "aussehen": "1,80 Meter groß, fast weißes/sehr helles Haar, blaue Augen. Neugierig veranlagt.",
-      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Führt ein großes Vermögen (~50.000 Goldstücke plus Lohn der Ältestenrätin) mit sich, das vor einer neuen Reise sicher gelagert werden muss.",
-      "faehigkeiten": [
-        "Kämpft mit zwei Fächern, damit auch Windattacken wie Wirbelsturm",
-        "Spezialattacke: bringt warme Luft zum Stinken, setzt Gegner dadurch außer Gefecht",
-        "Level 2 Vorteil: niedrigere Zielzahl für kraftvolle Luftattacken"
-      ],
+      "aussehen": "1,80 Meter groß, fast weißes/sehr helles Haar, blaue Augen. Neugierig veranlagt",
+      "zustand": "Unterwegs in den Wäldern außerhalb von Aschgrat. Führt ein großes Vermögen (~50.000 Goldstücke plus Lohn der Ältestenrätin) mit sich, das vor einer neuen Reise sicher gelagert werden muss",
+      "faehigkeiten": ["Kämpft mit zwei Fächern, damit auch Windattacken wie Wirbelsturm", "Spezialattacke: bringt warme Luft zum Stinken, setzt Gegner dadurch außer Gefecht", "Level 2 Vorteil: niedrigere Zielzahl für kraftvolle Luftattacken"],
       "inventar": [],
-      "ruf": "Öffentlich in Aschgrat als Haupt-Held der geschönten Geschichte gefeiert — tatsächlich impulsiv/wankelmütig (verliebte sich in ein Wesen, wandte sich dann gegen es); könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden.",
+      "ruf": "Öffentlich in Aschgrat als Haupt-Held der geschönten Geschichte gefeiert — tatsächlich impulsiv/wankelmütig (verliebte sich in ein Wesen, wandte sich dann gegen es); könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden",
       "besondereAktionen": [
         "Verliebte sich spontan in eine erwachte Lavagestalt, wandte sich dann gegen sie und griff sie mit kalter Luft an",
         "Beteiligte sich am nächtlichen Einbruch in die Schatzkammer von Aschgrat, schaltete dabei Wachen aus",
@@ -63,6 +56,33 @@
       "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
     },
     {
+      "id": "crush",
+      "name": "Crush",
+      "spieler": "Anni",
+      "volk": "Mensch",
+      "klasse": "Wasserbändiger (spezialisiert auf Eisbändigung)",
+      "level": 1,
+      "levelupAusstehend": false,
+      "aussehen": "Statur wie ein Olympiaschwimmer, sunnyboy-Auftreten, bauchfrei mit definierten Abs, komplett blaue Kleidung, mittelblondes Haar",
+      "zustand": "Noch nicht ins Geschehen eingetreten, wird auf der nächsten Reise von Kieselchen und Stormy in die Gruppe eingeführt",
+      "faehigkeiten": [
+        "Eisbändigung — kann Wasser blitzschnell zu Eis formen, spezialisiert auf sehr detaillierte Eiskonstrukte (z. B. Schwert, Katana, Schild)",
+        "Grundlegende Wasserbändigung — normale wasserbändigende Fähigkeiten (Wasser bewegen, formen, als Waffe/Schild einsetzen), wenn auch nicht sein Schwerpunkt",
+        "Eiswaffen-Formung — kann sich im Kampf spontan eine passende Nahkampfwaffe aus Eis erschaffen",
+        "Meisterhafte Eisformung — kann sehr fein und detailliert nahezu beliebige Eisformen erschaffen, von kleinen Skulpturen bis zu großen Konstrukten",
+        "Eiskörper-Erweiterungen — kann sich Eis-Anbauten direkt an den eigenen Körper formen, z. B. drachenflügelartige Auswüchse aus dem Rücken; kein Fliegen, aber nutzbar zum Einschüchtern, zur Verteidigung oder als Angriff (z. B. Abschießen von Eissplittern von den Flügeln)"
+      ],
+      "inventar": ["Blaue, bauchfreie Kleidung", "Wasserschlauch/Wasserbehälter als tragbare Wasserquelle"],
+      "ruf": "",
+      "besondereAktionen": [],
+      "loveInterest": "",
+      "familienstand": "",
+      "beziehungen": "Wird auf der nächsten gemeinsamen Reise von Kieselchen und Stormy in die Gruppe eingeführt",
+      "hintergrund": "",
+      "bild": "crush",
+      "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+    },
+    {
       "id": "frederik",
       "name": "Frederik",
       "spieler": "Niklas",
@@ -71,14 +91,10 @@
       "level": 2,
       "levelupAusstehend": false,
       "aussehen": "",
-      "zustand": "In Steinfurth, Fluch gebrochen, Eismagie komplett verschwunden, neue Wachstums-/Lebensmagie noch nicht vollständig erprobt.",
-      "faehigkeiten": [
-        "Kampf mit dem Schwert",
-        "Wachstums-/Lebensmagie: kann Pflanzen/Licht erschaffen, Wachstum und Schrumpfung bewirken (ersetzt die frühere, durch Fluchbruch verschwundene Eismagie)",
-        "Level 2: neue Fähigkeit, Dornenranken aus dem Boden lassen, die Gegner aus der Ferne fesseln oder verletzen können, moderate Zielzahl"
-      ],
+      "zustand": "In Steinfurth, Fluch gebrochen, Eismagie komplett verschwunden, neue Wachstums-/Lebensmagie noch nicht vollständig erprobt",
+      "faehigkeiten": ["Kampf mit dem Schwert", "Wachstums-/Lebensmagie: kann Pflanzen/Licht erschaffen, Wachstum und Schrumpfung bewirken (ersetzt die frühere, durch Fluchbruch verschwundene Eismagie)"],
       "inventar": [],
-      "ruf": "Im Dorf Steinfurth als Retter gefeiert; heimlich hat er Wertgegenstände geretteter Minenarbeiter gestohlen (von Felina missbilligt) — ein Geheimnis, das seinen Ruf bei Entdeckung stark beschädigen würde.",
+      "ruf": "Im Dorf Steinfurth als Retter gefeiert; heimlich hat er Wertgegenstände geretteter Minenarbeiter gestohlen (von Felina missbilligt) — ein Geheimnis, das seinen Ruf bei Entdeckung stark beschädigen würde",
       "besondereAktionen": [
         "Durchbohrte eine pulsierende Lichtquelle in der Mine mit Eisdolch und Frostmagie, brachte dadurch eine Stimme in seinem Kopf zum Schweigen",
         "Steckte heimlich Wertgegenstände (Ringe, ein Amulett) geretteter Minenarbeiter ein",
@@ -93,27 +109,23 @@
     },
     {
       "id": "big",
-      "name": "Big (Medium)",
+      "name": "Big",
       "spieler": "Tami",
       "volk": "Mensch",
       "klasse": "Medium mit Telepathie",
       "level": 2,
       "levelupAusstehend": false,
       "aussehen": "",
-      "zustand": "Dauerhaft auf 1,68m geschrumpft (behält dabei aber volle Kraft), in Steinfurth.",
-      "faehigkeiten": [
-        "Telepathie",
-        "Kampf mit Pfeil und Bogen",
-        "Level 2: vertiefte Telepathie, gezielteres Gedankenlesen sowie begrenzte Beeinflussung von Gedanken/Emotionen, hohe Zielzahl bei Beeinflussung"
-      ],
+      "zustand": "Dauerhaft auf 1,68m geschrumpft (behält dabei aber volle Kraft), in Steinfurth",
+      "faehigkeiten": ["Telepathie", "Kampf mit Pfeil und Bogen"],
       "inventar": [],
-      "ruf": "Im Dorf Steinfurth positiv gesehen (half mit einer Weissagung), gruppenintern als emotional-impulsiv bekannt (Würgeversuch gegen Frederik aus Eifersucht).",
+      "ruf": "Im Dorf Steinfurth positiv gesehen (half mit einer Weissagung), gruppenintern als emotional-impulsiv bekannt (Würgeversuch gegen Frederik aus Eifersucht)",
       "besondereAktionen": [
         "Gab Merla im Dorfladen eine Weissagung als Bezahlung",
         "Hatte durch einen magischen Ring eine Vision des eingesperrten eisigen Wesens",
         "Versuchte im Eifersuchtsstreit, Frederik mit dem magischen Ring zu würgen (scheiterte)"
       ],
-      "loveInterest": "keiner bekannt (Frederiks kurzzeitige Gefühle für Big wurden nicht erwidert)",
+      "loveInterest": "keiner bekannt",
       "familienstand": "nicht etabliert",
       "beziehungen": "",
       "hintergrund": "",
@@ -129,13 +141,10 @@
       "level": 2,
       "levelupAusstehend": false,
       "aussehen": "",
-      "zustand": "In Steinfurth, Fluch der Gruppe gebrochen. Ist eine sehr starke, vielseitige Zauberin/Magierin, die mit Magie generell bewandert ist und frei weben kann (nicht nur auf Elementarmagie beschränkt) — bei einfachen bis moderaten Anwendungen entsprechend niedrigere Zielzahlen, bei besonders mächtigen/ambitionierten Zaubern gelten aber weiterhin normale bis hohe Zielzahlen.",
-      "faehigkeiten": [
-        "Fernkampfmagie",
-        "Level 2: Zugriff auf mehrere Elemente statt nur allgemeiner Fernkampfmagie, moderate Zielzahl"
-      ],
+      "zustand": "In Steinfurth, Fluch der Gruppe gebrochen",
+      "faehigkeiten": ["Fernkampfmagie"],
       "inventar": [],
-      "ruf": "Im Dorf und gruppenintern als prinzipientreu und vertrauenswürdig wahrgenommen (missbilligte offen Frederiks Diebstahl).",
+      "ruf": "Im Dorf und gruppenintern als prinzipientreu und vertrauenswürdig wahrgenommen (missbilligte offen Frederiks Diebstahl)",
       "besondereAktionen": [
         "Vermutete als Erste, dass das eisige Wesen eine Eiskönigin ist",
         "Missbilligte offen Frederiks heimlichen Diebstahl an den Minenarbeitern"
@@ -156,16 +165,10 @@
       "level": 2,
       "levelupAusstehend": false,
       "aussehen": "",
-      "zustand": "Dauerhaft auf 2m Größe gewachsen, mit blühenden Blumen im Fell, in Steinfurth. Trägt ein verschwiegenes Geheimnis: geteilte Erinnerungen mit dem eisigen Wesen.",
-      "faehigkeiten": [
-        "Kampf mit einer Schaufel",
-        "Vibrationssinn",
-        "Erdmagie (ausgebaut durch Levelup, kampftauglich, Steinbrocken/Erdwälle offensiv und defensiv formen)",
-        "Als Maulwurf-Wesen mit Schaufel und Erdmagie fällt ihm einfaches Erdbewegen/Tunnelgraben leicht — dafür gilt grundsätzlich eine niedrige Zielzahl, nicht erst ab Levelup-Fähigkeiten",
-        "Level 2: Erdmagie kampftauglicher, kann Steinbrocken/Erdwälle offensiv und defensiv formen, moderate Zielzahl"
-      ],
+      "zustand": "Dauerhaft auf 2m Größe gewachsen, mit blühenden Blumen im Fell, in Steinfurth. Trägt ein verschwiegenes Geheimnis: geteilte Erinnerungen mit dem eisigen Wesen",
+      "faehigkeiten": ["Kampf mit einer Schaufel", "Vibrationssinn", "Erdmagie (ausgebaut durch Levelup, kampftauglich, Steinbrocken/Erdwälle offensiv und defensiv formen)", "Als Maulwurf-Wesen mit Schaufel und Erdmagie fällt ihm einfaches Erdbewegen/Tunnelgraben leicht — dafür gilt grundsätzlich eine niedrige Zielzahl, nicht erst ab Levelup-Fähigkeiten"],
       "inventar": [],
-      "ruf": "Im Dorf Steinfurth kaum bekannt, gruppenintern liebenswert-chaotisch — das verschwiegene Geheimnis birgt Sprengstoff, falls es auffliegt.",
+      "ruf": "Im Dorf Steinfurth kaum bekannt, gruppenintern liebenswert-chaotisch — das verschwiegene Geheimnis birgt Sprengstoff, falls es auffliegt",
       "besondereAktionen": [
         "Trank aus Versehen in Panik den Klarheitstrank und aß dabei die gesamten Essensvorräte der Gruppe auf",
         "Erhielt dadurch eine Vision und eine geteilte Erinnerung mit dem eisigen Wesen, verschweigt dies der Gruppe"
@@ -183,19 +186,19 @@
       "id": "vulkanausbruch-auf-den-innenseiten",
       "name": "Vulkanausbruch auf den Innenseiten",
       "status": "laufend",
-      "beschreibung": "Avatar-artiges Elementar-Setting: Feuerbändiger, Wasserbändiger, Erdbändiger, Luftbändiger, alle Menschen. Stadt Aschgrat, Vulkan Ignathor erwachte, Stollen der Untermine eingestürzt.",
-      "charaktere": ["kieselchen", "stormy"],
-      "letzterStand": "Kieselchen wurde nach der Theatervorstellung von einer vermummten Gruppe (Symbol: gekreuzte Feder, Treffpunkt am alten Brunnen) entführt; Stormy weiß vom Treffpunkt und beobachtet aus der Nähe. Ausgang der Entführung noch offen.",
-      "ausstehend": "Kieselchen und Stormy tragen aktuell ein Vermögen von grob fünfzigtausend Goldstücken plus Lohn der Ältestenrätin bei sich — deutlich zu viel für eine neue Reise, muss vor dem Aufbruch sicher gelagert werden. Zudem: Ausgang von Kieselchens Entführung noch offen."
+      "beschreibung": "Avatar-artiges Elementar-Setting: Kieselchen (Erdbändiger) und Stormy (Luftbändiger) lösten eine Vulkankrise in Aschgrat, sind nun auf eigene Faust unterwegs und bald von Crush (Wasser-/Eisbändiger) verstärkt",
+      "charaktere": ["kieselchen", "stormy", "crush"],
+      "letzterStand": "Kieselchen wurde nach einer Theatervorstellung von einer vermummten Gruppe (Symbol: gekreuzte Feder) entführt, Treffpunkt am alten Brunnen; Stormy beobachtet aus der Nähe. Ausgang der Entführung offen.",
+      "ausstehend": "Kieselchen und Stormy tragen ein Vermögen von grob 50.000 Goldstücken plus Lohn der Ältestenrätin bei sich — muss vor der nächsten Reise sicher gelagert werden. Kieselchens Entführung ist ungelöst."
     },
     {
       "id": "wurzeln-des-frosts",
       "name": "Wurzeln des Frosts",
       "status": "laufend",
-      "beschreibung": "Vier Spieler: Frederik, Big/Medium, Lumi und Felina. Hauptquest (abgeschlossen): Eiskönigin in der Mine von Steinfurth besiegt, Fluch gebrochen, Minenarbeiter gerettet. Neue Hauptquest: mysteriöse Risse bei Hollenbach.",
+      "beschreibung": "Frederik, Big, Lumi und Felina besiegten eine Eiskönigin in der Mine von Steinfurth und brachen einen Fluch; neue Hauptquest um mysteriöse, grün leuchtende Risse im Boden bei Hollenbach",
       "charaktere": ["frederik", "big", "lumi", "felina"],
-      "letzterStand": "Die Gruppe ist nach missglückten Versuchen, dem apathischen Bauern in Hollenbach zu helfen, unter Vorwürfen von Hexerei und Diebstahl aus dem Dorf geflohen (Felina ließ die Gruppe fliegen, Lumi fixierte die Verfolger mit Erdmagie). Ruf in Hollenbach beschädigt, Gruppe befindet sich jetzt am Waldrand bei den Rissen.",
-      "ausstehend": "Was mit den geraubten Wertgegenständen (Ringe, Amulett) der Minenarbeiter geschieht, ist offen. Die Ursache der Risse bei Hollenbach muss noch untersucht werden."
+      "letzterStand": "Die Gruppe ist nach einem eskalierten Zwischenfall in Hollenbach (Vorwürfe von Hexerei/Diebstahl, knappe Flucht) mit beschädigtem Ruf zum Waldrand bei den mysteriösen Rissen unterwegs.",
+      "ausstehend": "Was mit den geraubten Wertgegenständen (Ringe, Amulett) der Minenarbeiter geschieht, ist noch offen. Ursache der grün leuchtenden Risse bei Hollenbach noch ungeklärt."
     }
   ]
 }
