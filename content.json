@@ -25,7 +25,9 @@
       "beziehungen": "Befreundet mit Stormy, seit dem gemeinsamen Studium (beide geisteswissenschaftlich).",
       "hintergrund": "",
       "bild": "kieselchen",
-      "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+      "kampagnen": [
+        "vulkanausbruch-auf-den-innenseiten"
+      ]
     },
     {
       "id": "stormy",
@@ -53,7 +55,9 @@
       "beziehungen": "Befreundet mit Kieselchen, seit dem gemeinsamen Studium (beide geisteswissenschaftlich).",
       "hintergrund": "",
       "bild": "stormy",
-      "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+      "kampagnen": [
+        "vulkanausbruch-auf-den-innenseiten"
+      ]
     },
     {
       "id": "frederik",
@@ -81,7 +85,9 @@
       "beziehungen": "Gestand kurzzeitige Gefühle für Big, die nicht erwidert wurden (Big reagierte mit einem Würgeversuch).",
       "hintergrund": "",
       "bild": "frederik",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
     },
     {
       "id": "big",
@@ -109,7 +115,9 @@
       "beziehungen": "Frederiks kurzzeitige Gefühle für Big wurden nicht erwidert.",
       "hintergrund": "",
       "bild": "big",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
     },
     {
       "id": "lumi",
@@ -138,7 +146,9 @@
       "beziehungen": "",
       "hintergrund": "",
       "bild": "lumi",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
     },
     {
       "id": "felina",
@@ -165,7 +175,9 @@
       "beziehungen": "",
       "hintergrund": "",
       "bild": "felina",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
     }
   ],
   "campaigns": [
@@ -174,7 +186,10 @@
       "name": "Vulkanausbruch auf den Innenseiten",
       "status": "laufend",
       "beschreibung": "Avatar-artiges Elementar-Setting: Feuerbändiger, Wasserbändiger, Erdbändiger, Luftbändiger, alle Menschen. Stadt Aschgrat, Vulkan Ignathor erwachte, Stollen der Untermine eingestürzt.",
-      "charaktere": ["kieselchen", "stormy"],
+      "charaktere": [
+        "kieselchen",
+        "stormy"
+      ],
       "letzterStand": "Kieselchen und Stormy planen heimlich, die Notfall-Schatzkammer der Händlergilde in Rabenfurt auszurauben. Einbruch bei Nacht mit improvisierten Gesichtsmasken begonnen, der schlafende Wachposten wurde von Stormy unbemerkt mit Luftbändigung in Ohnmacht versetzt. Sie stehen jetzt vor einem vergitterten Kellerfenster nahe der vermuteten Schatzkammer; Kieselchen hat geprüft, dass die Kellermauer aus normalem Stein besteht und mit Erdbändigung bearbeitet werden kann - als Nächstes wollte er einen unauffälligen Durchgang direkt in den Stein formen.",
       "ausstehend": "Kieselchen und Stormy tragen aktuell ein Vermögen von grob fünfzigtausend Goldstücken plus Lohn der Ältestenrätin bei sich — deutlich zu viel für eine neue Reise. Bevor die beiden erneut aufbrechen, muss das Geld an einem sicheren Ort gelagert werden; nur ein vernünftiges Reisebudget bleibt mitführbar."
     },
@@ -183,7 +198,12 @@
       "name": "Wurzeln des Frosts",
       "status": "laufend",
       "beschreibung": "Vier Spieler: Frederik, Big/Medium, Lumi und Felina. Hauptquest um die Eiskönigin in der Mine von Steinfurth abgeschlossen (Fluch gebrochen, Eiskönigin besiegt). Neue Hauptquest: mysteriöse Risse bei Hollenbach.",
-      "charaktere": ["frederik", "big", "lumi", "felina"],
+      "charaktere": [
+        "frederik",
+        "big",
+        "lumi",
+        "felina"
+      ],
       "letzterStand": "Die Gruppe ist nach Hollenbach gereist, um mysteriöse Risse im Boden zu untersuchen. Mehrere misslungene Versuche (Telepathie, Schaufelschlag, Erinnerungsmanipulation) eskalierten die Situation zu einem Auflauf mit Vorwürfen von Hexerei und Diebstahl. Die Gruppe floh erfolgreich (Felina ließ alle schweben, Lumi fixierte die Verfolger mit Erdmagie), entkam unverletzt, aber mit beschädigtem Ruf in Hollenbach, zum Waldrand bei den Rissen.",
       "ausstehend": "Levelup für Frederik, Big, Lumi und Felina auf Level 2 abgeschlossen. Offen: was mit den geraubten Wertgegenständen (Ringe, Amulett) der Minenarbeiter geschieht, und wie es bei den Rissen von Hollenbach weitergeht."
     }
