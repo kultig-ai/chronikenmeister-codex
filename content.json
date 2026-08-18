@@ -212,9 +212,9 @@
   "campaigns": [
     {
       "id": "vulkanausbruch-auf-den-innenseiten",
-      "name": "Vulkanausbruch auf den Innenseiten",
+      "name": "Gleichgewicht der Elemente",
       "status": "laufend",
-      "beschreibung": "Avatar-artiges Elementar-Setting: Feuerbändiger, Wasserbändiger, Erdbändiger, Luftbändiger, alle Menschen. Stadt Aschgrat, Vulkan Ignathor erwachte, Stollen der Untermine eingestürzt.",
+      "beschreibung": "Allgemeine Rahmenkampagne für verschiedene Missionen im Avatar-artigen Elementar-Setting: Feuerbändiger, Wasserbändiger, Erdbändiger, Luftbändiger, alle Menschen. Ursprüngliche Ausgangsmission: Stadt Aschgrat, Vulkan Ignathor erwachte. Die Gruppe verfügt über eine eigene Basis (ausgebautes Gutshof-Anwesen/Festung im abgelegenen Tal), von der aus sie zu weiteren Missionen in der Welt aufbricht.",
       "charaktere": ["kieselchen", "stormy", "crush", "halnix"],
       "letzterStand": "Kieselchen wurde nach der Theatervorstellung von einer vermummten Gruppe (Symbol: gekreuzte Feder, Treffpunkt am alten Brunnen) entführt; Stormy weiß vom Treffpunkt und beobachtet aus der Nähe. Ausgang der Entführung noch offen. Halnix und Crush werden demnächst gemeinsam eingeführt.",
       "ausstehend": "Das Vermögen (ca. 67.000 Goldstücke) liegt sicher im verborgenen Erdversteck im Fundament der Festung. Ausgang von Kieselchens Entführung noch offen."
