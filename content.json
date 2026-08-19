@@ -137,6 +137,129 @@
       "hintergrund": "Stirbt und erhebt sich aus der eigenen Asche neu, beginnt danach jedoch immer wieder als Säugling und wächst erneut auf. Behält nach einer Wiedergeburt nur einen Teil seiner Erinnerungen. War maskierter \"Meister\" des Ordens der \"gekreuzten Feder\".",
       "bild": "halnix",
       "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+    },
+    {
+      "id": "frederik",
+      "name": "Frederik",
+      "spieler": "Niklas",
+      "volk": "Mensch",
+      "klasse": "Schwertkämpfer mit Wachstums-/Lebensmagie (vormals Eismagie)",
+      "level": 2,
+      "levelupAusstehend": false,
+      "xpAktuell": 0,
+      "xpBenoetigt": 200,
+      "aussehen": "",
+      "zustand": "In Steinfurth, Fluch gebrochen, Eismagie komplett verschwunden, neue Wachstums-/Lebensmagie noch nicht vollständig erprobt.",
+      "faehigkeiten": [
+        "Kampf mit dem Schwert",
+        "Wachstums-/Lebensmagie: kann Pflanzen/Licht erschaffen, Wachstum und Schrumpfung bewirken (ersetzt die frühere, durch Fluchbruch verschwundene Eismagie)",
+        "Level 2 Vorteil: Dornenranken aus dem Boden lassen, die Gegner aus der Ferne fesseln oder verletzen können, moderate Zielzahl"
+      ],
+      "inventar": [],
+      "ruf": "Im Dorf Steinfurth als Retter gefeiert; heimlich hat er Wertgegenstände geretteter Minenarbeiter gestohlen (von Felina missbilligt) — ein Geheimnis, das seinen Ruf bei Entdeckung stark beschädigen würde.",
+      "besondereAktionen": [
+        "Durchbohrte eine pulsierende Lichtquelle in der Mine mit Eisdolch und Frostmagie, brachte dadurch eine Stimme in seinem Kopf zum Schweigen",
+        "Steckte heimlich Wertgegenstände (Ringe, ein Amulett) geretteter Minenarbeiter ein",
+        "Schrumpfte Big im Streit mit Wachstumsmagie auf 1,68m"
+      ],
+      "loveInterest": "Felina (gegenseitige Gefühle, beim Tanzwettbewerb in Steinfurth entwickelt)",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "Gestand kurzzeitige Gefühle für Big, die nicht erwidert wurden (Big reagierte mit einem Würgeversuch).",
+      "hintergrund": "",
+      "bild": "frederik",
+      "kampagnen": ["wurzeln-des-frosts"]
+    },
+    {
+      "id": "big",
+      "name": "Big",
+      "spieler": "Tami",
+      "volk": "Mensch",
+      "klasse": "Medium mit Telepathie",
+      "level": 2,
+      "levelupAusstehend": false,
+      "xpAktuell": 0,
+      "xpBenoetigt": 200,
+      "aussehen": "",
+      "zustand": "Dauerhaft auf 1,68m geschrumpft (behält dabei aber volle Kraft), in Steinfurth.",
+      "faehigkeiten": [
+        "Telepathie",
+        "Kampf mit Pfeil und Bogen",
+        "Level 2 Vorteil: vertiefte Telepathie, gezielteres Gedankenlesen sowie begrenzte Beeinflussung von Gedanken/Emotionen, hohe Zielzahl bei Beeinflussung"
+      ],
+      "inventar": [],
+      "ruf": "Im Dorf Steinfurth positiv gesehen (half mit einer Weissagung), gruppenintern als emotional-impulsiv bekannt (Würgeversuch gegen Frederik aus Eifersucht).",
+      "besondereAktionen": [
+        "Gab Merla im Dorfladen eine Weissagung als Bezahlung",
+        "Hatte durch einen magischen Ring eine Vision des eingesperrten eisigen Wesens",
+        "Versuchte im Eifersuchtsstreit, Frederik mit dem magischen Ring zu würgen (scheiterte)"
+      ],
+      "loveInterest": "keiner bekannt (Frederiks kurzzeitige Gefühle für Big wurden nicht erwidert)",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "",
+      "hintergrund": "",
+      "bild": "big",
+      "kampagnen": ["wurzeln-des-frosts"]
+    },
+    {
+      "id": "lumi",
+      "name": "Lumi",
+      "spieler": "Yannik",
+      "volk": "Maulwurf-Wesen",
+      "klasse": "Kämpfer mit Erdmagie",
+      "level": 2,
+      "levelupAusstehend": false,
+      "xpAktuell": 0,
+      "xpBenoetigt": 200,
+      "aussehen": "",
+      "zustand": "Dauerhaft auf 2m Größe gewachsen, mit blühenden Blumen im Fell, in Steinfurth. Trägt ein verschwiegenes Geheimnis: geteilte Erinnerungen mit dem eisigen Wesen.",
+      "faehigkeiten": [
+        "Kampf mit einer Schaufel",
+        "Vibrationssinn",
+        "Erdmagie (ausgebaut durch Levelup, kampftauglich, Steinbrocken/Erdwälle offensiv und defensiv formen)",
+        "Als Maulwurf-Wesen mit Schaufel und Erdmagie fällt ihm einfaches Erdbewegen/Tunnelgraben leicht — dafür gilt grundsätzlich eine niedrige Zielzahl, nicht erst ab Levelup-Fähigkeiten"
+      ],
+      "inventar": [],
+      "ruf": "Im Dorf Steinfurth kaum bekannt, gruppenintern liebenswert-chaotisch — das verschwiegene Geheimnis birgt Sprengstoff, falls es auffliegt.",
+      "besondereAktionen": [
+        "Trank aus Versehen in Panik den Klarheitstrank und aß dabei die gesamten Essensvorräte der Gruppe auf",
+        "Erhielt dadurch eine Vision und eine geteilte Erinnerung mit dem eisigen Wesen, verschweigt dies der Gruppe"
+      ],
+      "loveInterest": "",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "",
+      "hintergrund": "",
+      "bild": "lumi",
+      "kampagnen": ["wurzeln-des-frosts"]
+    },
+    {
+      "id": "felina",
+      "name": "Felina",
+      "spieler": "Anni",
+      "volk": "Elfe",
+      "klasse": "Hexe mit Elementarmagie (divers, u.a. Feuer und Blitz), Fernkampf",
+      "level": 2,
+      "levelupAusstehend": false,
+      "xpAktuell": 0,
+      "xpBenoetigt": 200,
+      "aussehen": "",
+      "zustand": "In Steinfurth, Fluch der Gruppe gebrochen.",
+      "faehigkeiten": [
+        "Fernkampfmagie",
+        "Level 2 Vorteil: Zugriff auf mehrere Elemente statt nur allgemeiner Fernkampfmagie, moderate Zielzahl",
+        "Ist eine sehr starke, vielseitige Zauberin/Magierin, die mit Magie generell bewandert ist und frei weben kann (nicht nur auf Elementarmagie beschränkt) — bei einfachen bis moderaten Anwendungen entsprechend niedrigere Zielzahlen, bei besonders mächtigen/ambitionierten Zaubern gelten aber weiterhin normale bis hohe Zielzahlen"
+      ],
+      "inventar": [],
+      "ruf": "Im Dorf und gruppenintern als prinzipientreu und vertrauenswürdig wahrgenommen (missbilligte offen Frederiks Diebstahl).",
+      "besondereAktionen": [
+        "Vermutete als Erste, dass das eisige Wesen eine Eiskönigin ist",
+        "Missbilligte offen Frederiks heimlichen Diebstahl an den Minenarbeitern"
+      ],
+      "loveInterest": "Frederik (gegenseitige Gefühle, beim Tanzwettbewerb in Steinfurth entwickelt)",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "",
+      "hintergrund": "",
+      "bild": "felina",
+      "kampagnen": ["wurzeln-des-frosts"]
     }
   ],
   "campaigns": [
@@ -148,6 +271,15 @@
       "charaktere": ["kieselchen", "stormy", "crush", "halnix"],
       "letzterStand": "Kieselchen, Stormy und Crush besiegten Ordensanführer Verrek und zwei weitere Ordensmitglieder in der Kapelle-Höhlen-Anlage (Halnix blieb dabei auf der Basis, um für tot zu gelten). Alle drei erreichten ein Levelup. Mit Verreks Blut wurde die Tür zur Schatzkammer des Ordens geöffnet, die Gruppe steht nun am Eingang der noch ungesichteten Schatzkammer.",
       "ausstehend": "Schatzkammer des Ordens noch nicht geplündert/gesichtet - offener Cliffhanger für die nächste Session."
+    },
+    {
+      "id": "wurzeln-des-frosts",
+      "name": "Wurzeln des Frosts",
+      "status": "laufend",
+      "beschreibung": "Kampagne mit vier Spielern (Frederik, Big/Medium, Lumi, Felina). Hauptquest um eine eingesperrte Eiskönigin in einer Mine bei Steinfurth ist abgeschlossen, der Fluch gebrochen.",
+      "charaktere": ["frederik", "big", "lumi", "felina"],
+      "letzterStand": "Neue Hauptquest: Im Nachbardorf Hollenbach sind Risse im Boden aufgetaucht, aus denen fahles grünes Licht dringt. Ein Kontaktversuch mit einem betroffenen Dorfbewohner eskalierte, die Gruppe floh mit beschädigtem Ruf in Hollenbach zum Waldrand bei den Rissen.",
+      "ausstehend": "Was mit den geraubten Wertgegenständen der Minenarbeiter geschieht, ist offen. Die Risse bei Hollenbach sind noch nicht weiter untersucht."
     }
   ]
 }
