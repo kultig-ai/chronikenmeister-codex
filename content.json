@@ -8,30 +8,31 @@
       "klasse": "Erdbändiger",
       "level": 3,
       "levelupAusstehend": false,
-      "xpAktuell": 0,
+      "xpAktuell": 140,
       "xpBenoetigt": 300,
       "aussehen": "1,90 Meter groß, breit gebaut, gut trainiert. Besteht darauf, dass alle ihn süß finden - daher der Name Kieselchen (Verniedlichung von Kiesel).",
-      "zustand": "Unterwegs zurück von der Kapelle-Höhlen-Anlage außerhalb von Aschgrat, nachdem Ordensanführer Verrek besiegt wurde. Das große Vermögen (ca. 67.000 Goldstücke) liegt sicher im Erdversteck im Fundament der Festung, nicht bei sich getragen; nur ein kleineres Reisebudget mitgeführt.",
+      "zustand": "Nimmt an einem Kampfturnier teil, Runde-1-Kampf gewonnen. Auf der Reise Richtung Vulkane zur 'Hüterin der Asche' am Kraterrand im Osten.",
       "faehigkeiten": [
-        "Erdbändigung (Setting angelehnt an Avatar - Herr der Elemente)",
+        "Erdbändigung",
         "Level 2 Vorteil: niedrigere Zielzahl für kraftvolle Erdbändigung",
         "Level 3 Vorteil: beherrscht Metallbändigung jetzt zuverlässig, auch im Kampf einsetzbar"
       ],
-      "inventar": [],
-      "ruf": "Öffentlich in Aschgrat als Held gefeiert (geschönte Geschichte) — tatsächlich zweckorientiert und bereit, fragwürdige Mittel einzusetzen; könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden.",
+      "inventar": [
+        "Verstärkte Metallhandschuhe (vom Feuerbändiger-Schmied gefertigt)",
+        "Besonderes schweres Metall (aus einem besiegten Lavawesen)"
+      ],
+      "ruf": "Öffentlich in Aschgrat als Held gefeiert (geschönte Geschichte) - tatsächlich zweckorientiert und bereit, fragwürdige Mittel einzusetzen; könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden.",
       "besondereAktionen": [
-        "Zerstörte gemeinsam mit Stormy eine erwachte, leidende Lavagestalt mit Erdbändigung",
-        "Beteiligte sich am nächtlichen Einbruch in die Schatzkammer von Aschgrat, schaltete dabei Wachen aus",
-        "Erster Versuch, Metall über Erdreste zu bändigen, scheiterte beim Rabenfurt-Einbruch; übte seitdem meditativ mit begrenztem Erfolg",
-        "Formte gemeinsam mit Stormy eine schwebende Erdplattform, um die Beute aus der Gildeschatzkammer Rabenfurt lautlos herauszuschaffen",
-        "Gab sich bei einem Theaterfest als Ersatz-Hauptdarsteller aus, um als Köder für eine Entführergruppe zu dienen, und ließ sich nach der Vorstellung entführen",
-        "Wurde im Verhör mit Eisenketten gefesselt, provozierte den maskierten Ordensmeister psychologisch bis zum Geständnis und schoss ihm per mentaler Erdverbindung einen Kieselstein gegen die Stirn",
-        "Griff mit einer gezielten Erdfesselung eine vermummte, nervöse Kontaktperson am Anwesenstor fest, ließ sie per Erdsäule in den Hofgarten katapultieren",
-        "Half, den neuen Ordensanführer Verrek in der Kapelle-Höhlen-Anlage aufzuspüren und zu besiegen; setzte im Kampf erstmals erfolgreich Metallbändigung ein, um einen gegnerischen Wasserbändiger mit Metallranken zu fesseln, tötete ihn später durch Strangulation mit den Metallranken"
+        "Zerstörte gemeinsam mit Stormy eine erwachte, leidende Lavagestalt",
+        "Beteiligte sich am nächtlichen Einbruch in die Schatzkammer von Aschgrat",
+        "Half, Ordensanführer Verrek zu besiegen, setzte dabei erstmals Metallbändigung im Kampf ein",
+        "Gewann seinen Turnier-Einzelkampf in Runde 1 und Runde 2",
+        "Katapultierte sich und Halnix per Erdsäulen mit Stormys Unterstützung aus der brennenden Turnierarena",
+        "Half, ein aggressives Lavawesen auf der Reise Richtung Vulkane zu besiegen, fand darin ein besonderes Metall und einen Energiekristall"
       ],
       "loveInterest": "keiner offiziell, zeigt aber wiederholt schwärmerisches Interesse an Halnix",
       "familienstand": "nicht etabliert",
-      "beziehungen": "Befreundet mit Stormy, seit dem gemeinsamen Studium (beide geisteswissenschaftlich). Griff Crush aus Eifersucht/Wut kurz mit Erdbändigung an, entschuldigte sich danach bei Halnix.",
+      "beziehungen": "Befreundet mit Stormy seit dem gemeinsamen Studium. Griff Crush einmal aus Eifersucht an, entschuldigte sich danach bei Halnix. Kürzlich ein zärtlicher Moment mit Halnix (Händehalten).",
       "hintergrund": "",
       "bild": "kieselchen",
       "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
@@ -44,30 +45,28 @@
       "klasse": "Luftbändiger",
       "level": 3,
       "levelupAusstehend": false,
-      "xpAktuell": 0,
+      "xpAktuell": 115,
       "xpBenoetigt": 300,
       "aussehen": "1,80 Meter groß, fast weißes/sehr helles Haar, blaue Augen. Neugierig veranlagt.",
-      "zustand": "Unterwegs zurück von der Kapelle-Höhlen-Anlage außerhalb von Aschgrat, nachdem Ordensanführer Verrek besiegt wurde. Das große Vermögen (ca. 67.000 Goldstücke) liegt sicher im Erdversteck im Fundament der Festung, nicht bei sich getragen; nur ein kleineres Reisebudget mitgeführt.",
+      "zustand": "Nimmt an einem Kampfturnier teil. Auf der Reise Richtung Vulkane zur 'Hüterin der Asche' am Kraterrand im Osten.",
       "faehigkeiten": [
         "Kämpft mit zwei Fächern, damit auch Windattacken wie Wirbelsturm",
         "Spezialattacke: bringt warme Luft zum Stinken, setzt Gegner dadurch außer Gefecht",
         "Level 2 Vorteil: niedrigere Zielzahl für kraftvolle Luftattacken",
-        "Level 3 Vorteil: Windklingen sind jetzt deutlich durchschlagskräftiger, durchdringen auch Rüstung oder dichteres Material"
+        "Level 3 Vorteil: Windklingen sind jetzt deutlich durchschlagskräftiger, durchdringen auch Rüstung"
       ],
       "inventar": [],
-      "ruf": "Öffentlich in Aschgrat als Haupt-Held der geschönten Geschichte gefeiert — tatsächlich impulsiv/wankelmütig; könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden.",
+      "ruf": "Öffentlich in Aschgrat als Haupt-Held der geschönten Geschichte gefeiert - tatsächlich impulsiv/wankelmütig; könnte bei Entdeckung des Diebstahls zum gesuchten Verbrecher werden.",
       "besondereAktionen": [
-        "Verliebte sich spontan in eine erwachte Lavagestalt, wandte sich dann gegen sie und griff sie mit kalter Luft an",
-        "Beteiligte sich am nächtlichen Einbruch in die Schatzkammer von Aschgrat, schaltete dabei Wachen aus",
-        "Öffnete in Rabenfurt lautlos ein Türschloss mit feiner Luftbändigung und setzte zwei Wachen unbemerkt durch Luftentzug außer Gefecht",
-        "Hielt eine schwebende Erdplattform mit der gesamten Beute aus der Gildeschatzkammer Rabenfurt per Luftbändigung in der Schwebe",
-        "Schenkte Reina, der Frau des Schmieds, ein blaues Halsband aus der Rabenfurt-Beute, näherte sich ihr an",
-        "Ermittelte verdeckt bei einem Theaterfest zu einem verschwundenen Schauspieler, fand Hinweise auf eine Gruppe mit dem Symbol einer gekreuzten Feder und deren Treffpunkt am alten Brunnen",
-        "Half, den neuen Ordensanführer Verrek in der Kapelle-Höhlen-Anlage aufzuspüren; würgte Verrek mit einer Luftschlinge bewusstlos und tötete ihn danach mit einem präzisen Fächerschnitt an der Kehle"
+        "Verliebte sich spontan in eine erwachte Lavagestalt, wandte sich dann gegen sie",
+        "Öffnete in Rabenfurt lautlos ein Türschloss mit feiner Luftbändigung",
+        "Half, Ordensanführer Verrek zu besiegen (Luftschlinge, Fächerschnitt)",
+        "Besiegte gemeinsam mit Crush sechs Stadtwachen nach der Flucht aus dem Turnier (Luftentzug, Stink-Spezialattacke)",
+        "Half, ein aggressives Lavawesen auf der Reise Richtung Vulkane zu besiegen"
       ],
-      "loveInterest": "Reina, Frau des angeworbenen Feuerbändiger-Schmieds; erster Kuss erfolgt, Reina möchte es aber vor ihrem Mann geheim halten",
+      "loveInterest": "Reina, Frau des angeworbenen Feuerbändiger-Schmieds; erster Kuss erfolgt, wird vor ihrem Mann geheim gehalten",
       "familienstand": "nicht etabliert",
-      "beziehungen": "Befreundet mit Kieselchen, seit dem gemeinsamen Studium (beide geisteswissenschaftlich).",
+      "beziehungen": "Befreundet mit Kieselchen seit dem gemeinsamen Studium.",
       "hintergrund": "",
       "bild": "stormy",
       "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
@@ -80,14 +79,14 @@
       "klasse": "Wasserbändiger (spezialisiert auf Eisbändigung)",
       "level": 2,
       "levelupAusstehend": false,
-      "xpAktuell": 0,
+      "xpAktuell": 145,
       "xpBenoetigt": 200,
-      "aussehen": "Statur wie ein Olympiaschwimmer, Sunnyboy-Auftreten, mittelblondes Haar.",
-      "zustand": "Unterwegs zurück von der Kapelle-Höhlen-Anlage außerhalb von Aschgrat, nachdem Ordensanführer Verrek besiegt wurde.",
+      "aussehen": "Statur wie ein Olympiaschwimmer, Sunnyboy-Auftreten, mittelblondes Haar. Hat panische Angst vor Tauben.",
+      "zustand": "Nimmt an einem Kampfturnier teil. Auf der Reise Richtung Vulkane zur 'Hüterin der Asche' am Kraterrand im Osten.",
       "faehigkeiten": [
-        "Wasserbändigung — Grundfertigkeit, kann Wasser bewegen und formen, als einfache Waffe/Schild einsetzen",
-        "Eisbändigung — kann Wasser zu Eis formen, grundlegende Eiswaffen im Kampf erschaffen",
-        "Eisformung — Talent für sehr fein detaillierte Eiskonstrukte (Skulpturen, kunstvolle Waffen wie ein Katana, Eis-Körpererweiterungen wie drachenflügelartige Auswüchse); gelingt seit Level 2 auch unter Zeitdruck und im hitzigen Kampfgetümmel zuverlässig"
+        "Wasserbändigung - Grundfertigkeit",
+        "Eisbändigung - kann Wasser zu Eis formen, grundlegende Eiswaffen",
+        "Eisformung - fein detaillierte Eiskonstrukte, gelingt seit Level 2 auch im hitzigen Kampfgetümmel zuverlässig"
       ],
       "inventar": [
         "Blaue, bauchfreie Kleidung",
@@ -95,14 +94,16 @@
       ],
       "ruf": "",
       "besondereAktionen": [
-        "Trat der Gruppe bei, als Stormy zwei Verdächtige der \"gekreuzten Feder\" verfolgte; fror einen Entführer mit Eissplittern an eine Wand, half beim Verhör und tötete ihn schließlich per Kehlschnitt",
+        "Trat der Gruppe bei, tötete einen Entführer per Kehlschnitt zur Informationsbeschaffung",
         "Erkannte den maskierten Ordensmeister als seinen totgeglaubten Adoptivbruder Halnix",
-        "Half, den neuen Ordensanführer Verrek in der Kapelle-Höhlen-Anlage aufzuspüren; formte im Kampf Eisdrachenflügel und Eisschwerter, fror einen Ordens-Erdbändiger mit Eissplittern an, zerstörte im Kampfrausch seine eigenen Eisflügel zu Eispfeilen, um einen kapitulationsbereiten Wasserbändiger schwer zu verletzen, tötete später einen gefangenen Erdbändiger durch Ertränken"
+        "Half, Ordensanführer Verrek zu besiegen (Eisdrachenflügel, Eisschwerter)",
+        "Besiegte gemeinsam mit Stormy sechs Stadtwachen nach der Flucht aus dem Turnier",
+        "Half, ein aggressives Lavawesen auf der Reise Richtung Vulkane zu besiegen"
       ],
-      "loveInterest": "",
+      "loveInterest": "keiner bekannt",
       "familienstand": "nicht etabliert",
-      "beziehungen": "Halnix ist Crushs Adoptivbruder — Halnix wurde als Findelkind nach einer Phönix-Wiedergeburt von Crushs Familie aufgenommen. Zeigt gegenüber Halnix eine ruhige, leicht beschützende, aber unaufgeregte Herzlichkeit.",
-      "hintergrund": "Hat panische Angst vor Tauben.",
+      "beziehungen": "Halnix ist Crushs Adoptivbruder - als Findelkind nach einer Phönix-Wiedergeburt von Crushs Familie aufgenommen. Zeigt ihm gegenüber ruhige, beschützende Herzlichkeit.",
+      "hintergrund": "",
       "bild": "crush",
       "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
     },
@@ -112,31 +113,94 @@
       "spieler": "Yannik",
       "volk": "humanoider Phönix (ursprünglich Mensch, vor Jahrhunderten von einem Phönixgeist heimgesucht)",
       "klasse": "Feuerbändiger",
-      "level": 1,
+      "level": 2,
       "levelupAusstehend": false,
-      "xpAktuell": 100,
-      "xpBenoetigt": 100,
-      "aussehen": "Sieht sehr jung aus, circa 17-18 Jahre. Braune Haare mit leichtem Orange-Stich, rote Augen. Leichte Federn stechen über den Körper verteilt sichtbar hervor, keine dauerhaften Flügel.",
-      "zustand": "Bleibt aktuell auf der Basis (dem Anwesen), um von seinem ehemaligen Orden nicht wiederentdeckt zu werden und für tot zu gelten, während Kieselchen, Stormy und Crush die Kapelle-Höhlen-Anlage erkunden.",
+      "xpAktuell": 150,
+      "xpBenoetigt": 200,
+      "aussehen": "Sieht sehr jung aus, ca. 17-18 Jahre. Braune Haare mit leichtem Orange-Stich, rote Augen. Leichte Federn stechen sichtbar über den Körper verteilt hervor.",
+      "zustand": "Nimmt an einem Kampfturnier teil, Runde-1- und Runde-2-Kampf gewonnen (Runde 2 eskalierte, Turnier wurde abgebrochen). Auf der Reise Richtung Vulkane zur 'Hüterin der Asche' am Kraterrand im Osten.",
       "faehigkeiten": [
         "Feuerbändigung als primäre Kampfweise",
-        "Kann phönixflügelartige Auswüchse aus sich herauswachsen lassen, um seine Bändigerkräfte zu verstärken",
-        "Kann durch leichtes Flattern (huhnartig) ein paar Meter in der Luft bleiben, aber nicht richtig fliegen"
+        "Kann phönixflügelartige Auswüchse herauswachsen lassen, um Bändigerkräfte zu verstärken",
+        "Kann durch leichtes Flattern ein paar Meter in der Luft bleiben, aber nicht richtig fliegen",
+        "Level 2 Vorteil: kann einen kleinen, flammenden Phönix-Vogel erschaffen und aussenden, noch kaum kontrollierbar"
       ],
-      "inventar": [],
+      "inventar": [
+        "Dunkler, glühender Kristall aus geronnener Vulkanenergie (potenzielle Energiequelle für Feuerbändiger)"
+      ],
       "ruf": "",
       "besondereAktionen": [
-        "Als Ordensmeister enttarnt beim Verhör von Kieselchen im Gerberhaus, danach offiziell in die Gruppe aufgenommen",
-        "Half bei der Befragung einer nervösen Kontaktperson am Anwesenstor, die vor einem geplanten Vergeltungsschlag des neuen Ordensanführers Verrek warnte",
-        "Erinnerte sich bruchstückhaft an Verrek und an den Weg zu einer Kapelle-Höhlen-Anlage",
-        "Zog sich zurück auf die Basis, um für den Orden als tot zu gelten und die Gruppe nicht zu gefährden"
+        "War maskierter Ordensmeister des Ordens der 'gekreuzten Feder', wurde von Crush enttarnt und schloss sich der Gruppe an",
+        "Kämpfte in der Taverne mit Flammenpeitsche, erreichte dadurch Level 2",
+        "Entzündete im Turnier-Machtrausch versehentlich die komplette Arena, Turnier wurde abgebrochen",
+        "Sein Phönix-Vogel half im Wachenkampf nach der Flucht aus dem Turnier",
+        "Absorbierte spontan die Magma-Energie eines aggressiven Lavawesens und schwächte es dadurch entscheidend"
       ],
-      "loveInterest": "",
+      "loveInterest": "keiner offiziell, wird von Kieselchen wiederholt schwärmerisch angesprochen, reagiert bisher verlegen; kürzlich ein zärtlicher Moment (Händehalten)",
       "familienstand": "nicht etabliert",
-      "beziehungen": "Crush ist sein Adoptivbruder — Halnix wurde als Findelkind nach einer Phönix-Wiedergeburt von Crushs Familie aufgenommen. Kieselchen zeigt wiederholt schwärmerisches Interesse an ihm, das ihn bisher nur verlegen macht.",
-      "hintergrund": "Stirbt und erhebt sich aus der eigenen Asche neu, beginnt danach jedoch immer wieder als Säugling und wächst erneut auf. Behält nach einer Wiedergeburt nur einen Teil seiner Erinnerungen. War maskierter \"Meister\" des Ordens der \"gekreuzten Feder\".",
+      "beziehungen": "Crush ist sein Adoptivbruder. Sein Körper wird seit Jahrhunderten von einem Phönixgeist bewohnt, der in Vulkannähe stärker wird und ihn manchmal übermannt.",
+      "hintergrund": "Ursprünglich ein Mensch, der vor Jahrhunderten von einem Phönixgeist heimgesucht wurde. Stirbt und ersteht aus der eigenen Asche neu, beginnt danach als Säugling und wächst erneut auf, behält dabei nur einen Teil seiner Erinnerungen.",
       "bild": "halnix",
       "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+    },
+    {
+      "id": "big",
+      "name": "Big (Medium)",
+      "spieler": "Tami",
+      "volk": "Mensch",
+      "klasse": "Medium mit Telepathie",
+      "level": 2,
+      "levelupAusstehend": false,
+      "xpAktuell": 0,
+      "xpBenoetigt": 200,
+      "aussehen": "Dauerhaft auf 1,68m geschrumpft (behält dabei volle Kraft), deshalb von der Gruppe 'Medium' genannt.",
+      "zustand": "In Steinfurth, nach Abschluss der Hauptquest.",
+      "faehigkeiten": [
+        "Telepathie, seit Level 2 vertieft: gezielteres Gedankenlesen sowie begrenzte Beeinflussung von Gedanken/Emotionen (hohe Zielzahl)",
+        "Kampf mit Pfeil und Bogen"
+      ],
+      "inventar": [],
+      "ruf": "Im Dorf Steinfurth positiv gesehen, gruppenintern als emotional-impulsiv bekannt (Würgeversuch gegen Frederik aus Eifersucht).",
+      "besondereAktionen": [
+        "Gab Merla im Dorfladen eine Weissagung als Bezahlung",
+        "Hatte durch einen magischen Ring eine Vision des eingesperrten eisigen Wesens",
+        "Versuchte im Eifersuchtsstreit, Frederik mit dem magischen Ring zu würgen (scheiterte)"
+      ],
+      "loveInterest": "keiner bekannt (Frederiks kurzzeitige Gefühle wurden nicht erwidert)",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "",
+      "hintergrund": "",
+      "bild": "big",
+      "kampagnen": ["wurzeln-des-frosts"]
+    },
+    {
+      "id": "felina",
+      "name": "Felina",
+      "spieler": "Anni",
+      "volk": "Elfe",
+      "klasse": "Hexe mit diverser Elementarmagie",
+      "level": 2,
+      "levelupAusstehend": false,
+      "xpAktuell": 0,
+      "xpBenoetigt": 200,
+      "aussehen": "",
+      "zustand": "In Steinfurth, nach Abschluss der Hauptquest.",
+      "faehigkeiten": [
+        "Fernkampfmagie, seit Level 2 Zugriff auf mehrere Elemente (u.a. Feuer und Blitz)",
+        "Sehr starke, vielseitige Zauberin mit freiem Weben - niedrigere Zielzahlen bei einfachen bis moderaten Zaubern, normale bis hohe bei mächtigen"
+      ],
+      "inventar": [],
+      "ruf": "Im Dorf und gruppenintern als prinzipientreu und vertrauenswürdig wahrgenommen (missbilligte offen Frederiks Diebstahl).",
+      "besondereAktionen": [
+        "Vermutete als Erste, dass das eisige Wesen eine Eiskönigin ist",
+        "Missbilligte offen Frederiks heimlichen Diebstahl an den Minenarbeitern"
+      ],
+      "loveInterest": "Frederik (gegenseitige Gefühle, beim Tanzwettbewerb in Steinfurth entwickelt)",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "",
+      "hintergrund": "",
+      "bild": "felina",
+      "kampagnen": ["wurzeln-des-frosts"]
     },
     {
       "id": "frederik",
@@ -152,52 +216,21 @@
       "zustand": "In Steinfurth, Fluch gebrochen, Eismagie komplett verschwunden, neue Wachstums-/Lebensmagie noch nicht vollständig erprobt.",
       "faehigkeiten": [
         "Kampf mit dem Schwert",
-        "Wachstums-/Lebensmagie: kann Pflanzen/Licht erschaffen, Wachstum und Schrumpfung bewirken (ersetzt die frühere, durch Fluchbruch verschwundene Eismagie)",
-        "Level 2 Vorteil: Dornenranken aus dem Boden lassen, die Gegner aus der Ferne fesseln oder verletzen können, moderate Zielzahl"
+        "Wachstums-/Lebensmagie: kann Pflanzen/Licht erschaffen, Wachstum und Schrumpfung bewirken",
+        "Level 2 Vorteil: Dornenranken aus dem Boden, fesseln oder verletzen Gegner aus der Ferne (moderate Zielzahl)"
       ],
       "inventar": [],
-      "ruf": "Im Dorf Steinfurth als Retter gefeiert; heimlich hat er Wertgegenstände geretteter Minenarbeiter gestohlen (von Felina missbilligt) — ein Geheimnis, das seinen Ruf bei Entdeckung stark beschädigen würde.",
+      "ruf": "Im Dorf Steinfurth als Retter gefeiert; heimlich hat er Wertgegenstände geretteter Minenarbeiter gestohlen - ein Geheimnis, das seinen Ruf bei Entdeckung stark beschädigen würde.",
       "besondereAktionen": [
-        "Durchbohrte eine pulsierende Lichtquelle in der Mine mit Eisdolch und Frostmagie, brachte dadurch eine Stimme in seinem Kopf zum Schweigen",
-        "Steckte heimlich Wertgegenstände (Ringe, ein Amulett) geretteter Minenarbeiter ein",
+        "Durchbohrte eine pulsierende Lichtquelle in der Mine mit Eisdolch und Frostmagie",
+        "Steckte heimlich Wertgegenstände geretteter Minenarbeiter ein",
         "Schrumpfte Big im Streit mit Wachstumsmagie auf 1,68m"
       ],
       "loveInterest": "Felina (gegenseitige Gefühle, beim Tanzwettbewerb in Steinfurth entwickelt)",
       "familienstand": "nicht etabliert",
-      "beziehungen": "Gestand kurzzeitige Gefühle für Big, die nicht erwidert wurden (Big reagierte mit einem Würgeversuch).",
+      "beziehungen": "Gestand kurzzeitige Gefühle für Big, die nicht erwidert wurden.",
       "hintergrund": "",
       "bild": "frederik",
-      "kampagnen": ["wurzeln-des-frosts"]
-    },
-    {
-      "id": "big",
-      "name": "Big",
-      "spieler": "Tami",
-      "volk": "Mensch",
-      "klasse": "Medium mit Telepathie",
-      "level": 2,
-      "levelupAusstehend": false,
-      "xpAktuell": 0,
-      "xpBenoetigt": 200,
-      "aussehen": "",
-      "zustand": "Dauerhaft auf 1,68m geschrumpft (behält dabei aber volle Kraft), in Steinfurth.",
-      "faehigkeiten": [
-        "Telepathie",
-        "Kampf mit Pfeil und Bogen",
-        "Level 2 Vorteil: vertiefte Telepathie, gezielteres Gedankenlesen sowie begrenzte Beeinflussung von Gedanken/Emotionen, hohe Zielzahl bei Beeinflussung"
-      ],
-      "inventar": [],
-      "ruf": "Im Dorf Steinfurth positiv gesehen (half mit einer Weissagung), gruppenintern als emotional-impulsiv bekannt (Würgeversuch gegen Frederik aus Eifersucht).",
-      "besondereAktionen": [
-        "Gab Merla im Dorfladen eine Weissagung als Bezahlung",
-        "Hatte durch einen magischen Ring eine Vision des eingesperrten eisigen Wesens",
-        "Versuchte im Eifersuchtsstreit, Frederik mit dem magischen Ring zu würgen (scheiterte)"
-      ],
-      "loveInterest": "keiner bekannt (Frederiks kurzzeitige Gefühle für Big wurden nicht erwidert)",
-      "familienstand": "nicht etabliert",
-      "beziehungen": "",
-      "hintergrund": "",
-      "bild": "big",
       "kampagnen": ["wurzeln-des-frosts"]
     },
     {
@@ -210,55 +243,25 @@
       "levelupAusstehend": false,
       "xpAktuell": 0,
       "xpBenoetigt": 200,
-      "aussehen": "",
-      "zustand": "Dauerhaft auf 2m Größe gewachsen, mit blühenden Blumen im Fell, in Steinfurth. Trägt ein verschwiegenes Geheimnis: geteilte Erinnerungen mit dem eisigen Wesen.",
+      "aussehen": "Dauerhaft auf 2m Größe gewachsen, mit blühenden Blumen im Fell.",
+      "zustand": "In Steinfurth. Trägt ein verschwiegenes Geheimnis: geteilte Erinnerungen mit dem eisigen Wesen.",
       "faehigkeiten": [
         "Kampf mit einer Schaufel",
         "Vibrationssinn",
-        "Erdmagie (ausgebaut durch Levelup, kampftauglich, Steinbrocken/Erdwälle offensiv und defensiv formen)",
-        "Als Maulwurf-Wesen mit Schaufel und Erdmagie fällt ihm einfaches Erdbewegen/Tunnelgraben leicht — dafür gilt grundsätzlich eine niedrige Zielzahl, nicht erst ab Levelup-Fähigkeiten"
+        "Erdmagie, seit Level 2 kampftauglicher, kann Steinbrocken/Erdwälle offensiv und defensiv formen",
+        "Als Maulwurf-Wesen niedrige Zielzahl beim einfachen Erdbewegen/Tunnelgraben"
       ],
       "inventar": [],
-      "ruf": "Im Dorf Steinfurth kaum bekannt, gruppenintern liebenswert-chaotisch — das verschwiegene Geheimnis birgt Sprengstoff, falls es auffliegt.",
+      "ruf": "Im Dorf Steinfurth kaum bekannt, gruppenintern liebenswert-chaotisch - das verschwiegene Geheimnis birgt Sprengstoff, falls es auffliegt.",
       "besondereAktionen": [
         "Trank aus Versehen in Panik den Klarheitstrank und aß dabei die gesamten Essensvorräte der Gruppe auf",
         "Erhielt dadurch eine Vision und eine geteilte Erinnerung mit dem eisigen Wesen, verschweigt dies der Gruppe"
       ],
-      "loveInterest": "",
+      "loveInterest": "keiner bekannt",
       "familienstand": "nicht etabliert",
       "beziehungen": "",
       "hintergrund": "",
       "bild": "lumi",
-      "kampagnen": ["wurzeln-des-frosts"]
-    },
-    {
-      "id": "felina",
-      "name": "Felina",
-      "spieler": "Anni",
-      "volk": "Elfe",
-      "klasse": "Hexe mit Elementarmagie (divers, u.a. Feuer und Blitz), Fernkampf",
-      "level": 2,
-      "levelupAusstehend": false,
-      "xpAktuell": 0,
-      "xpBenoetigt": 200,
-      "aussehen": "",
-      "zustand": "In Steinfurth, Fluch der Gruppe gebrochen.",
-      "faehigkeiten": [
-        "Fernkampfmagie",
-        "Level 2 Vorteil: Zugriff auf mehrere Elemente statt nur allgemeiner Fernkampfmagie, moderate Zielzahl",
-        "Ist eine sehr starke, vielseitige Zauberin/Magierin, die mit Magie generell bewandert ist und frei weben kann (nicht nur auf Elementarmagie beschränkt) — bei einfachen bis moderaten Anwendungen entsprechend niedrigere Zielzahlen, bei besonders mächtigen/ambitionierten Zaubern gelten aber weiterhin normale bis hohe Zielzahlen"
-      ],
-      "inventar": [],
-      "ruf": "Im Dorf und gruppenintern als prinzipientreu und vertrauenswürdig wahrgenommen (missbilligte offen Frederiks Diebstahl).",
-      "besondereAktionen": [
-        "Vermutete als Erste, dass das eisige Wesen eine Eiskönigin ist",
-        "Missbilligte offen Frederiks heimlichen Diebstahl an den Minenarbeitern"
-      ],
-      "loveInterest": "Frederik (gegenseitige Gefühle, beim Tanzwettbewerb in Steinfurth entwickelt)",
-      "familienstand": "nicht etabliert",
-      "beziehungen": "",
-      "hintergrund": "",
-      "bild": "felina",
       "kampagnen": ["wurzeln-des-frosts"]
     }
   ],
@@ -267,19 +270,19 @@
       "id": "vulkanausbruch-auf-den-innenseiten",
       "name": "Gleichgewicht der Elemente",
       "status": "laufend",
-      "beschreibung": "Allgemeine Rahmenkampagne für verschiedene Missionen in der Welt von Avatar - Herr der Elemente. Die Gruppe verfügt über eine eigene Basis (ausgebautes Gutshof-Anwesen/Festung im abgelegenen Tal), von der aus sie zu weiteren Missionen aufbricht.",
+      "beschreibung": "Avatar-artiges Elementar-Setting: Feuerbändiger, Wasserbändiger, Erdbändiger, Luftbändiger, alle Menschen. Die Gruppe (Kieselchen, Stormy, Crush, Halnix) verfügt über eine eigene Basis (Gutshof-Anwesen/Festung im abgelegenen Tal) und ist auf der Suche nach der 'Hüterin der Asche' im vulkanischen Norden.",
       "charaktere": ["kieselchen", "stormy", "crush", "halnix"],
-      "letzterStand": "Kieselchen, Stormy und Crush besiegten Ordensanführer Verrek und zwei weitere Ordensmitglieder in der Kapelle-Höhlen-Anlage (Halnix blieb dabei auf der Basis, um für tot zu gelten). Alle drei erreichten ein Levelup. Mit Verreks Blut wurde die Tür zur Schatzkammer des Ordens geöffnet, die Gruppe steht nun am Eingang der noch ungesichteten Schatzkammer.",
-      "ausstehend": "Schatzkammer des Ordens noch nicht geplündert/gesichtet - offener Cliffhanger für die nächste Session."
+      "letzterStand": "Nach der Flucht aus einem abgebrochenen Kampfturnier (Halnix' Machtrausch setzte die Arena in Brand) besiegten Crush und Stormy sechs Stadtwachen, während Kieselchen und Halnix per Erdsäulen-Katapult entkamen. Die Gruppe erwog kurz eine Einnahme der Turnierstadt, entschied sich dagegen, und brach Richtung Vulkane auf. Unterwegs besiegte die Gruppe gemeinsam ein aggressives Lavawesen (Halnix absorbierte dessen Magma-Energie), fand darin ein besonderes Metall und einen Energiekristall. Die Reise Richtung Tempel am Kraterrand zur 'Hüterin der Asche' wird fortgesetzt.",
+      "ausstehend": "Ankunft am Tempel am Kraterrand und Begegnung mit der 'Hüterin der Asche' steht noch aus. Die Turnierstadt bleibt ein offener Handlungsstrang für später. Der Orden der 'gekreuzten Feder' ist größer als angenommen, Verrek war nicht die Spitze."
     },
     {
       "id": "wurzeln-des-frosts",
       "name": "Wurzeln des Frosts",
       "status": "laufend",
-      "beschreibung": "Kampagne mit vier Spielern (Frederik, Big/Medium, Lumi, Felina). Hauptquest um eine eingesperrte Eiskönigin in einer Mine bei Steinfurth ist abgeschlossen, der Fluch gebrochen.",
-      "charaktere": ["frederik", "big", "lumi", "felina"],
-      "letzterStand": "Neue Hauptquest: Im Nachbardorf Hollenbach sind Risse im Boden aufgetaucht, aus denen fahles grünes Licht dringt. Ein Kontaktversuch mit einem betroffenen Dorfbewohner eskalierte, die Gruppe floh mit beschädigtem Ruf in Hollenbach zum Waldrand bei den Rissen.",
-      "ausstehend": "Was mit den geraubten Wertgegenständen der Minenarbeiter geschieht, ist offen. Die Risse bei Hollenbach sind noch nicht weiter untersucht."
+      "beschreibung": "Vier Spieler: Frederik (Mensch-Schwertkämpfer mit Wachstums-/Lebensmagie), Big/Medium (Mensch-Medium mit Telepathie und Bogen), Lumi (Maulwurf mit Schaufel und Erdmagie) und Felina (Elfen-Hexe mit Fernkampfmagie). Spielt im Grenzdorf Steinfurth und Umgebung.",
+      "charaktere": ["big", "felina", "frederik", "lumi"],
+      "letzterStand": "Die Hauptquest um die eingesperrte Eiskönigin in der Mine wurde abgeschlossen (Fluch gebrochen, Eiskönigin besiegt, Minenarbeiter gerettet). Eine neue Hauptquest ist eröffnet: Im Nachbardorf Hollenbach sind mysteriöse Risse im Boden aufgetaucht, aus denen fahles grünes Licht und ein wortloses Flüstern dringen. Ein erster Kontaktversuch mit einem betroffenen Dorfbewohner eskalierte, die Gruppe floh mit beschädigtem Ruf in Hollenbach zum Waldrand bei den Rissen.",
+      "ausstehend": "Was mit den geraubten Wertgegenständen der Minenarbeiter geschieht, ist offen. Die Untersuchung der Risse bei Hollenbach steht noch aus."
     }
   ]
 }
