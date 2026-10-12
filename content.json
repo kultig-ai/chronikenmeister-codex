@@ -35,7 +35,9 @@
       "beziehungen": "Befreundet mit Stormy seit dem gemeinsamen Studium. Griff Crush einmal aus Eifersucht an, entschuldigte sich danach bei Halnix. Kürzlich ein zärtlicher Moment mit Halnix (Händehalten).",
       "hintergrund": "",
       "bild": "kieselchen",
-      "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+      "kampagnen": [
+        "vulkanausbruch-auf-den-innenseiten"
+      ]
     },
     {
       "id": "stormy",
@@ -69,7 +71,9 @@
       "beziehungen": "Befreundet mit Kieselchen seit dem gemeinsamen Studium.",
       "hintergrund": "",
       "bild": "stormy",
-      "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+      "kampagnen": [
+        "vulkanausbruch-auf-den-innenseiten"
+      ]
     },
     {
       "id": "crush",
@@ -105,7 +109,9 @@
       "beziehungen": "Halnix ist Crushs Adoptivbruder - als Findelkind nach einer Phönix-Wiedergeburt von Crushs Familie aufgenommen. Zeigt ihm gegenüber ruhige, beschützende Herzlichkeit.",
       "hintergrund": "",
       "bild": "crush",
-      "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+      "kampagnen": [
+        "vulkanausbruch-auf-den-innenseiten"
+      ]
     },
     {
       "id": "halnix",
@@ -141,7 +147,9 @@
       "beziehungen": "Crush ist sein Adoptivbruder. Sein Körper wird seit Jahrhunderten von einem Phönixgeist bewohnt, der in Vulkannähe stärker wird und ihn manchmal übermannt.",
       "hintergrund": "Ursprünglich ein Mensch, der vor Jahrhunderten von einem Phönixgeist heimgesucht wurde. Stirbt und ersteht aus der eigenen Asche neu, beginnt danach als Säugling und wächst erneut auf, behält dabei nur einen Teil seiner Erinnerungen.",
       "bild": "halnix",
-      "kampagnen": ["vulkanausbruch-auf-den-innenseiten"]
+      "kampagnen": [
+        "vulkanausbruch-auf-den-innenseiten"
+      ]
     },
     {
       "id": "big",
@@ -171,7 +179,9 @@
       "beziehungen": "",
       "hintergrund": "",
       "bild": "big",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
     },
     {
       "id": "felina",
@@ -200,7 +210,9 @@
       "beziehungen": "",
       "hintergrund": "",
       "bild": "felina",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
     },
     {
       "id": "frederik",
@@ -228,10 +240,12 @@
       ],
       "loveInterest": "Felina (gegenseitige Gefühle, beim Tanzwettbewerb in Steinfurth entwickelt)",
       "familienstand": "nicht etabliert",
-      "beziehungen": "Gestand kurzzeitige Gefühle für Big, die nicht erwidert wurden.",
+      "beziehungen": "Gestand kurzeitige Gefühle für Big, die nicht erwidert wurden.",
       "hintergrund": "",
       "bild": "frederik",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
     },
     {
       "id": "lumi",
@@ -262,7 +276,96 @@
       "beziehungen": "",
       "hintergrund": "",
       "bild": "lumi",
-      "kampagnen": ["wurzeln-des-frosts"]
+      "kampagnen": [
+        "wurzeln-des-frosts"
+      ]
+    },
+    {
+      "id": "thorsten",
+      "name": "Thorsten",
+      "spieler": "",
+      "volk": "Mensch",
+      "klasse": "Kriegsmagier (Thermomantie: Feuer & Frost)",
+      "level": 4,
+      "levelupAusstehend": false,
+      "xpAktuell": 114,
+      "xpBenoetigt": 400,
+      "aussehen": "",
+      "zustand": "VERSTORBEN. Verfiel nach dem Sieg über den Aschefürsten der eigenen Machtgier (verstärkt durch einen Splitter des Fürsten) und lenkte zuletzt sein eigenes Leben in Wolli. Starb im Hof der Ascheakademie.",
+      "faehigkeiten": [
+        "Feuermagie mitten im Nahkampf: Feuerwand, Feuerlanze, Blendfeuerball, Feuerschmetterlinge, Fußexplosionen",
+        "Frostmagie (ab Level 2): Eissäulen, Eismorgenstern/Eisspeer — seine Magie ist temperaturbestimmt (Thermomantie)",
+        "Level 3: Thermoschock — erst vereisen, dann von Hitze aufreißen; bricht Panzer, Stein und Glas",
+        "Level 4: Essenzlenker — kann fremde Energie dauerhaft bündeln und auf sich oder Gefährten übertragen"
+      ],
+      "inventar": [
+        "Buch der Thermomantie",
+        "Frostkristall-Phiolen",
+        "aschefester Umhang"
+      ],
+      "ruf": "In Morrwald als Retter der Kinder und der 13 Verschwundenen gefeiert; kurz in Ungnade, als er den Vater der geretteten Hanna anging, rettete die Stimmung aber mit einem Fass Bier.",
+      "besondereAktionen": [
+        "Zerstörte das pochende Herz in der Mine mit seiner glühenden Klinge",
+        "Las im Herzen die Wahrheit über das schlafende Wesen in der Tiefe",
+        "Riss die drei alten Siegelringe aus der Höhlenwand, streifte seinen eigenen ab und absorbierte mit kritischem Erfolg deren Frostmagie",
+        "Fand die Schwachstelle des Wesens: Frost und Feuer auf das Auge",
+        "Leitete beim Sieg über den Aschefürsten dessen Essenz in Wolli und machte ihn zum Aschefürst-Troll",
+        "Wandte sich an der Ascheakademie gegen Esska, Hypatia und Mira; gab am Ende sein eigenes Leben an Wolli"
+      ],
+      "loveInterest": "Mira (Händlerstochter) — liiert; stellte sich am Ende gegen ihn und durchbohrte ihm die Zauberhand",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "Blutsbruder von Wolli (Ritual), Mira per Blutsgeschwister-Ritual verbunden. Verriet am Ende Esska und Hypatia von der Ascheakademie.",
+      "hintergrund": "",
+      "bild": "thorsten",
+      "kampagnen": [
+        "mit-der-faust-aufs-auge"
+      ]
+    },
+    {
+      "id": "wolfgang",
+      "name": "Wolfgang (Wolli)",
+      "spieler": "",
+      "volk": "Troll",
+      "klasse": "Barbar",
+      "level": 4,
+      "levelupAusstehend": false,
+      "xpAktuell": 114,
+      "xpBenoetigt": 400,
+      "aussehen": "Zwei Meter großer Troll.",
+      "zustand": "VERSTORBEN. Nahm Thorstens geopfertes Leben auf, wurde zur weißglühenden Bestie, verwüstete die Ascheakademie und verbrannte von innen. Es blieb nur Asche.",
+      "faehigkeiten": [
+        "Roh, kräftig, prügelt sich in Rage",
+        "Level 2: Betörendes Grölen — Trollgesang lässt Gegner benommen erstarren (misslingt der Wurf, blamiert er sich)",
+        "Level 3: Berserkersprung — wuchtiger Sprungangriff mit voller Trollwucht",
+        "Level 4: Gluthieb — jeder Schlag trägt lodernde Fürstenglut und entflammt beim Treffer",
+        "Aschefürst-Troll: trägt die Fürstenglut dauerhaft in sich; sein Blut ist giftig"
+      ],
+      "inventar": [
+        "Morgenstern",
+        "Kette",
+        "Schulterpanzer aus Minengestein",
+        "drei nie erkaltende Glutsteine",
+        "Umhang aus Aschegewebe"
+      ],
+      "ruf": "In Morrwald als Held gefeiert und von manchen gefürchtet; Hannas Vater fürchtet ihn nach einer Drohung gegen seine Tochter und schweigt über das überlebende Wesen.",
+      "besondereAktionen": [
+        "Erwürgte die Wasserfrau mit einer Kette",
+        "Fing einen Dorfbewohner über dem Abgrund (13)",
+        "Schlug bei der Flucht einen Klauenarm des Wesens zurück (kritischer Erfolg)",
+        "Bedrohte Hannas Vater hinter der Scheune mit kritischem Erfolg",
+        "Betäubte das Wesen kurz mit seinem Grölen und rettete Mira vor einer Ranke (19)",
+        "Grölte den Aschefürsten im Glasturm nieder",
+        "Tropfte Esska an der Ascheakademie absichtlich sein vergiftetes Blut in den Tee",
+        "Ging als lodernde Fackel in Flammen auf, sichtbar bis zu den Minen von Morrwald"
+      ],
+      "loveInterest": "keiner bekannt",
+      "familienstand": "nicht etabliert",
+      "beziehungen": "Blutsbruder von Thorsten (Ritual). Wurde von Esska angehimmelt, verriet sie am Ende.",
+      "hintergrund": "",
+      "bild": "wolfgang",
+      "kampagnen": [
+        "mit-der-faust-aufs-auge"
+      ]
     }
   ],
   "campaigns": [
@@ -271,7 +374,12 @@
       "name": "Gleichgewicht der Elemente",
       "status": "laufend",
       "beschreibung": "Avatar-artiges Elementar-Setting: Feuerbändiger, Wasserbändiger, Erdbändiger, Luftbändiger, alle Menschen. Die Gruppe (Kieselchen, Stormy, Crush, Halnix) verfügt über eine eigene Basis (Gutshof-Anwesen/Festung im abgelegenen Tal) und ist auf der Suche nach der 'Hüterin der Asche' im vulkanischen Norden.",
-      "charaktere": ["kieselchen", "stormy", "crush", "halnix"],
+      "charaktere": [
+        "kieselchen",
+        "stormy",
+        "crush",
+        "halnix"
+      ],
       "letzterStand": "Nach der Flucht aus einem abgebrochenen Kampfturnier (Halnix' Machtrausch setzte die Arena in Brand) besiegten Crush und Stormy sechs Stadtwachen, während Kieselchen und Halnix per Erdsäulen-Katapult entkamen. Die Gruppe erwog kurz eine Einnahme der Turnierstadt, entschied sich dagegen, und brach Richtung Vulkane auf. Unterwegs besiegte die Gruppe gemeinsam ein aggressives Lavawesen (Halnix absorbierte dessen Magma-Energie), fand darin ein besonderes Metall und einen Energiekristall. Die Reise Richtung Tempel am Kraterrand zur 'Hüterin der Asche' wird fortgesetzt.",
       "ausstehend": "Ankunft am Tempel am Kraterrand und Begegnung mit der 'Hüterin der Asche' steht noch aus. Die Turnierstadt bleibt ein offener Handlungsstrang für später. Der Orden der 'gekreuzten Feder' ist größer als angenommen, Verrek war nicht die Spitze."
     },
@@ -280,9 +388,26 @@
       "name": "Wurzeln des Frosts",
       "status": "laufend",
       "beschreibung": "Vier Spieler: Frederik (Mensch-Schwertkämpfer mit Wachstums-/Lebensmagie), Big/Medium (Mensch-Medium mit Telepathie und Bogen), Lumi (Maulwurf mit Schaufel und Erdmagie) und Felina (Elfen-Hexe mit Fernkampfmagie). Spielt im Grenzdorf Steinfurth und Umgebung.",
-      "charaktere": ["big", "felina", "frederik", "lumi"],
+      "charaktere": [
+        "big",
+        "felina",
+        "frederik",
+        "lumi"
+      ],
       "letzterStand": "Die Hauptquest um die eingesperrte Eiskönigin in der Mine wurde abgeschlossen (Fluch gebrochen, Eiskönigin besiegt, Minenarbeiter gerettet). Eine neue Hauptquest ist eröffnet: Im Nachbardorf Hollenbach sind mysteriöse Risse im Boden aufgetaucht, aus denen fahles grünes Licht und ein wortloses Flüstern dringen. Ein erster Kontaktversuch mit einem betroffenen Dorfbewohner eskalierte, die Gruppe floh mit beschädigtem Ruf in Hollenbach zum Waldrand bei den Rissen.",
       "ausstehend": "Was mit den geraubten Wertgegenständen der Minenarbeiter geschieht, ist offen. Die Untersuchung der Risse bei Hollenbach steht noch aus."
+    },
+    {
+      "id": "mit-der-faust-aufs-auge",
+      "name": "Mit der Faust aufs Auge",
+      "status": "abgeschlossen",
+      "beschreibung": "Klassisches Fantasy-Setting, kampflastig mit kreativen Quests. Thorsten (Mensch-Kriegsmagier, Essenzlenker) und Wolli (Troll-Barbar, Aschefürst-Troll), begleitet von Mira und Esska — von Morrwald über die Minen bis zum Sieg über den Aschefürsten.",
+      "charaktere": [
+        "thorsten",
+        "wolfgang"
+      ],
+      "letzterStand": "Düsteres Ende: Nach dem Sieg über den Aschefürsten verfielen Thorsten und Wolli der Machtgier und einem Splitter des Fürsten, verrieten Esska und wandten sich gegen Hypatia und Mira. Thorsten opferte sein Leben an Wolli, der als Bestie die Ascheakademie verwüstete und in Flammen aufging. Mira, Esska und Hypatia überlebten.",
+      "ausstehend": ""
     }
   ]
 }
