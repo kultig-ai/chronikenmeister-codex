@@ -366,6 +366,87 @@
       "kampagnen": [
         "mit-der-faust-aufs-auge"
       ]
+    },
+    {
+      "id": "pip",
+      "name": "Pip Funkelzahn",
+      "spieler": "Niklas",
+      "volk": "Halbling",
+      "klasse": "Schurke / Taschendieb",
+      "level": 1,
+      "levelupAusstehend": false,
+      "xpAktuell": 31,
+      "xpBenoetigt": 100,
+      "aussehen": "Klein und flink, mit einem goldenen Eckzahn, dem er seinen Namen verdankt.",
+      "zustand": "Unverletzt. Im Turm-Anwesen der Familie Nebelsang, bereit zum Aufbruch Richtung Glockeninsel.",
+      "faehigkeiten": [
+        "Schleichen und Hinterhalte aus den Schatten",
+        "Dolch- und Wurfmesserkampf",
+        "Konter: lauert auf den Angriff und schlägt im Ausweichen zurück",
+        "Schlösserknacken",
+        "Charme und Überredungskunst"
+      ],
+      "inventar": [
+        "Dolche",
+        "Wurfmesser",
+        "Dietriche",
+        "Kupfermünzen"
+      ],
+      "ruf": "Der korrupte Hauptmann der Kettenhafener Stadtwache kennt ihn und droht, der Diebesgilde von ihm zu berichten. Thessa, Bedienstete der Nebelsangs, misstraut ihm nach seinem harten Verhör.",
+      "besondereAktionen": [
+        "Redete die Stadtwache in Kettenhafen davon ab, Bauer Hennik mitzunehmen",
+        "Schaltete im Nebel zwei Maskierte mit Dolch und Konter aus",
+        "Befreite Mira mit einem Präzisionswurf aus Garms Griff",
+        "Versorgte Fritz' verletztes Bein mit Wundsalbe",
+        "Verhörte Garm mit Tritt und heißem Tee",
+        "Gewann den Steuermann Tibbe als Verbündeten"
+      ],
+      "loveInterest": "",
+      "familienstand": "",
+      "beziehungen": "Ylvara vertraut ihm trotz seiner Gildenvergangenheit. Tibbe ist sein neuer Verbündeter. Garm kennt ihn aus der Gilde.",
+      "hintergrund": "Straßenkind aus den Hafenvierteln der Unterinseln, wo die Häuser an Ketten über dem Abgrund hängen. War Mitglied der Diebesgilde und ist nach eigener Aussage aus moralischen Gründen ausgetreten.",
+      "bild": "pip",
+      "kampagnen": [
+        "himmelsinseln"
+      ]
+    },
+    {
+      "id": "ylvara",
+      "name": "Ylvara Nebelsang",
+      "spieler": "Annika",
+      "volk": "Elfe",
+      "klasse": "Wolkenmagierin",
+      "level": 1,
+      "levelupAusstehend": false,
+      "xpAktuell": 31,
+      "xpBenoetigt": 100,
+      "aussehen": "Hochgewachsen, mit silbergrauem Haar, das im Wind wie Nebel wirkt.",
+      "zustand": "Unverletzt, nach drei Blitzen in kurzer Folge leicht erschöpft. Ihr Pegasus Fritz hat ein verletztes, versorgtes Hinterbein.",
+      "faehigkeiten": [
+        "Nebel formen: Verstecken, Schleier und Schilde",
+        "Kleine Blitze",
+        "Wind lenken, etwa als Sturmböe über Fritz' Flügel",
+        "Wetter und Luftströmungen spüren"
+      ],
+      "inventar": [
+        "Pegasus Fritz (Reittier)"
+      ],
+      "ruf": "Hennik und seine Tochter Mira stehen tief in ihrer Schuld.",
+      "besondereAktionen": [
+        "Glaubte als Einzige dem Bauern Hennik, dass die Mühleninsel sabotiert wurde",
+        "Hüllte die Mühleninsel in dichten Nebel für Pips Hinterhalt",
+        "Streckte Anführer Garm mit Sturmböe und Blitz nieder",
+        "Schleppte den bewusstlosen Garm mit Fritz zum Luftschiff",
+        "Brachte Mira zurück zu ihrem Vater"
+      ],
+      "loveInterest": "",
+      "familienstand": "",
+      "beziehungen": "Vertraut Pip und sieht in ihm einen Verbündeten. Thessa, die alte Bedienstete der Familie, kennt sie seit ihrer Kindheit.",
+      "hintergrund": "Stammt aus der Familie Nebelsang auf einer der höchsten Inseln, einem Ort aus Türmen und Windharfen. Bemerkte als Erste, dass die Inseln sinken, doch ihr Orden glaubte ihr nicht.",
+      "bild": "ylvara",
+      "kampagnen": [
+        "himmelsinseln"
+      ]
     }
   ],
   "campaigns": [
@@ -408,6 +489,18 @@
       ],
       "letzterStand": "Düsteres Ende: Nach dem Sieg über den Aschefürsten verfielen Thorsten und Wolli der Machtgier und einem Splitter des Fürsten, verrieten Esska und wandten sich gegen Hypatia und Mira. Thorsten opferte sein Leben an Wolli, der als Bestie die Ascheakademie verwüstete und in Flammen aufging. Mira, Esska und Hypatia überlebten.",
       "ausstehend": ""
+    },
+    {
+      "id": "himmelsinseln",
+      "name": "Himmelsinseln",
+      "status": "laufend",
+      "beschreibung": "Schwebende Inseln über einem endlosen Nebelmeer, verbunden durch Luftschiffe und Windbrücken. Eine Insel nach der anderen stürzt ab. Pip Funkelzahn (Halbling-Schurke) und Ylvara Nebelsang (Elfen-Wolkenmagierin mit Pegasus Fritz) kommen dem Grund auf die Spur.",
+      "charaktere": [
+        "pip",
+        "ylvara"
+      ],
+      "letzterStand": "Die Mühleninsel wurde sabotiert und versank. Pip und Ylvara retteten Mira, besiegten die Maskierten des Gerissenen Auges und nahmen deren Anführer Garm gefangen; er sitzt im Weinkeller des Nebelsang-Turms. Steuermann Tibbe hat sich mit seinem kleinen schwarzen Luftschiff der Gruppe angeschlossen. Laut Tibbe sammelt ein feiner Herr mit Waagen-Brosche die Kernsteine, die die Inseln tragen.",
+      "ausstehend": "Die Glockeninsel soll morgen Nacht fallen, die Gruppe will ihre rund 200 Bewohner retten. Das Luftschiff braucht noch einen Namen."
     }
   ]
 }
